@@ -1,0 +1,3618 @@
+{
+  "animals": [
+    {
+      "distance": 659,
+      "animal": {
+        "id": 43222656,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Short Hair",
+        "primary_breed": {
+          "id": 86,
+          "name": "Domestic Short Hair"
+        },
+        "is_mixed_breed": false,
+        "primary_color": "Black",
+        "age": "Young",
+        "sex": "Female",
+        "size": "Small",
+        "coat_length": "Short",
+        "name": "Gia",
+        "description": "Our rescues mean a lot to the vet staff and DunRoamin' volunteers. We do everything we can to find the perfect homes for these pets, who are being given a second chance at a happy life. The application process requires pre-adoption applications, references, and interviews with you and those listed on your application in order to ensure a successful placement. If interested, please COMPLETE AN APPLICATION at https://form.jotform.com/60793520585259\n\nGia came to us on September 12, 2018 from Cloverdale, NB, where she was part of a colony of 70 that was being cared for by a gentleman who found he was unable to continue to do so.  As they were breeding unchecked, he requested help to ensure the colony would not become larger and not be able to sustain itself.  Winter was coming and soon both food and shelter would be hard to find.  In addition, there were too many dangers for these cats to face - starvation, freezing temperatures, predators, illness, injury, etc.  They needed help.\n\nGia was accepted by DunRoamin' - she was only a baby, born about May 27, 2018.  She was healthy, but had ear mites which were treated.  She was very timid.  Gia was so very fortunate to be fostered by a DunRoamin' supporter and volunteer, so she, Starling and Joelle, also from the same Cloverdale colony have been living together while they become socialized, loving and trusting.  We'd like to thank Sandy for all her help with these little ones. Gia and her friends Starling and Joelle are all up-to-date on their vaccines, have been spayed, tested for FIV and FeLV, treated for parasites and are anxious to begin their new lives with a loving family.",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43222656/1/?bust=1541554097",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43222656/1/?bust=1541554097",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43222656/1/?bust=1541554097"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_children": true,
+          "good_with_dogs": true,
+          "good_with_cats": true
+        },
+        "tags": [],
+        "adoption_fee_waived": false,
+        "published_at": "2018-11-07T01:30:34+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgia-43222656%2Fnb%2Fflorenceville%2Fdunroamin-stray-and-rescue-nb19%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Gia on Petfinder",
+          "facebook_description": "Gia is an adoptable domestic short hair searching for a forever family near Florenceville, NB. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+short+hair%3F+Gia+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgia-43222656%2Fnb%2Fflorenceville%2Fdunroamin-stray-and-rescue-nb19%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Gia, Up For Adoption Near Florenceville, NB",
+          "twitter_description": "Have you seen a more perfect domestic short hair? Gia is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F43222656%2F1%2F%3Fbust%3D1541554097&description=Gia+is+an+adoptable+domestic+short+hair+searching+for+a+forever+family+near+Florenceville%2C+NB.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgia-43222656%2Fnb%2Fflorenceville%2Fdunroamin-stray-and-rescue-nb19%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Gia on Petfinder",
+          "pinterest_description": "Gia is an adoptable domestic short hair searching for a forever family near Florenceville, NB. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/gia-43222656/nb/florenceville/dunroamin-stray-and-rescue-nb19/",
+          "email_title": "Meet Gia, a Petfinder adoptable Domestic Short Hair | Florenceville, NB",
+          "email_description": "Gia's Profile: https://www.petfinder.com/cat/gia-43222656/nb/florenceville/dunroamin-stray-and-rescue-nb19/\nGia's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43222656/1/?bust=1541554097"
+        }
+      },
+      "contact": {
+        "email": "dunroaminpetfinder@outlook.com",
+        "phone": " "
+      },
+      "location": {
+        "address": {
+          "address1": "PO Box 574",
+          "city": "Florenceville",
+          "state": "NB",
+          "postal_code": "E7L 1Y8",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 46.165,
+          "longitude": -67.56
+        },
+        "is_map_hidden": false,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "DunRoamin' Stray and Rescue",
+        "display_id": "NB19"
+      }
+    },
+    {
+      "distance": 639,
+      "animal": {
+        "id": 42371884,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Tuxedo & Extra-Toes Cat / Hemingway Polydactyl Mix",
+        "primary_breed": {
+          "id": 143,
+          "name": "Tuxedo"
+        },
+        "secondary_breed": {
+          "id": 100,
+          "name": "Extra-Toes Cat / Hemingway Polydactyl"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Black & White / Tuxedo",
+        "age": "Baby",
+        "sex": "Female",
+        "size": "Medium",
+        "coat_length": "Short",
+        "name": "Posh Spice",
+        "description": "Posh Spice (DOB May 14, 2018) arrived in care with her sister Baby and brother Basil Spice.  We can tell her apart from her sister by the black dot on her nose! Both sisters have those extra toes!   Posh is still a bit shy, and relies on her sister Baby to be around.  Of course there's no time to be shy when it's canned food time!  \n\nAll CAPS foster cats are given full health checks, tested negative for feline leukemia and FIV (feline AIDS), vaccinated, neutered/spayed, fecal tested, de-wormed and treated for fleas and ear mites, and micro-chipped.  All diagnosed medical issues are addressed and foster animals are healthy before being listed as adoptable. Foster cats live their lives in cage-free, loving, family settings, spoiled by their caregivers and foster parents.  CAPS foster cats are truly loved.\n\nCAPS cats are intended as INDOOR cats only.  CAPS does not adopt cats as barn cats or as mousers.   CAPS requests that adopters agree that all cats adopted from our care be kept safely indoors for at least ONE YEAR from their adoption date.  All of the cats taken into care by CAPS have been found outside - lost, abandoned, often injured and in poor health.  It is CAPS’ sincere hope that our beautiful and cherished foster cats being adopted to their forever homes will NEVER again find themselves in this situation.  We fervently hope that as their parents/caregivers, you will agree to always keep them safely indoors. Your new little friend will thank you for many years to come! \n\nCAPS will not adopt to individuals whose intention it is to have their adopted cat declawed, in keeping with the Nova Scotia Veterinary Medical Association’ decision that the declawing of cats is ethically unacceptable and banned in Nova Scotia.\n\nBEFORE YOU APPLY TO ADOPT FROM CAPS, please ensure the following:\n•\tthat all companion animals in your household are up to date on their annual vaccines, spay/neutered, and have been to your vet in the past 12 months for an annual health check\n•\tthat all cats in your household have tested negative for feline leukemia and FIV\n•\tthat if you are presently a pet owner or have had a pet in the past 5 years, you have contacted your veterinarian(s) to give your permission to speak with a CAPS volunteer when called for a reference.\n\nPlease review your application carefully before you submit it for consideration. If information on the application is found to be untrue, your application will be immediately declined.\n\nMinimum adoption donation:\n•\t$200 for a kitten 6 months of age and younger\n•\t$150 for cats 7 months and older\n\nThis adoption donation helps defer veterinary costs and the ongoing care of the cats while in our foster care system. \n \nVisitation at the foster homes can be scheduled only after an application is approved.\n \nFor more information and to submit an APPLICATION to ADOPT, please visit http://www.caps-annapolis.org/adoption/\n\nThank you for your interest in the foster animals of the Companion Animal Protection Society of Annapolis County.\n",
+        "organization_animal_identifier": "18-82",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/2/?bust=1543518441",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/2/?bust=1543518441",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/2/?bust=1543518441",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/1/?bust=1543518441",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/3/?bust=1543518442",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/4/?bust=1543518443"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_dogs": true,
+          "good_with_cats": true
+        },
+        "tags": [],
+        "public_adoption_fee": 150,
+        "adoption_fee_waived": false,
+        "published_at": "2018-08-03T16:46:28+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fposh-spice-42371884%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Posh Spice on Petfinder",
+          "facebook_description": "Posh Spice is an adoptable tuxedo searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+tuxedo%3F+Posh+Spice+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fposh-spice-42371884%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Posh Spice, Up For Adoption Near Middleton, NS",
+          "twitter_description": "Have you seen a more perfect tuxedo? Posh Spice is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F42371884%2F2%2F%3Fbust%3D1543518441&description=Posh+Spice+is+an+adoptable+tuxedo+searching+for+a+forever+family+near+Middleton%2C+NS.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fposh-spice-42371884%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Posh Spice on Petfinder",
+          "pinterest_description": "Posh Spice is an adoptable tuxedo searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/posh-spice-42371884/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/",
+          "email_title": "Meet Posh Spice, a Petfinder adoptable Tuxedo | Middleton, NS",
+          "email_description": "Posh Spice's Profile: https://www.petfinder.com/cat/posh-spice-42371884/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/\nPosh Spice's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42371884/2/?bust=1543518441"
+        }
+      },
+      "contact": {
+        "email": "info@caps-annapolis.org",
+        "phone": "(902) 825-2277"
+      },
+      "location": {
+        "address": {
+          "city": "Middleton",
+          "state": "NS",
+          "postal_code": "B0S 1P0",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 44.95,
+          "longitude": -65.066667
+        },
+        "is_map_hidden": true,
+        "open_to_public": false,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "Companion Animal Protection Society of Annapolis County",
+        "display_id": "NS16"
+      }
+    },
+    {
+      "distance": 636,
+      "animal": {
+        "id": 41923612,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Medium Hair Mix",
+        "primary_breed": {
+          "id": 75,
+          "name": "Domestic Medium Hair"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Black & White / Tuxedo",
+        "age": "Adult",
+        "sex": "Female",
+        "size": "Medium",
+        "coat_length": "Medium",
+        "name": "Bizou",
+        "description": "Hello, Bonjour! my name is Bizou. I was a wonderful mama to Bonbon and her sister and I am now ready for my own furever home. I am a quite and laid back girl. I spend most of my days sleeping and relaxing in sun spots. But when I'm up I like to sit on your chest and cuddle around your neck. I would do better in a quite adult home without a dog. I've had a hard, crowded life and would like a quite, long retirement.\n\nIf you are interested in adopting Bizou, please contact us at frederictoncarma@gmail.com. The adoption fee is $125 for one and $200 for two.\n",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/3/?bust=1529159575",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/3/?bust=1529159575",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/3/?bust=1529159575",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/2/?bust=1529159574",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/1/?bust=1529159660",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/4/?bust=1529159663"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_children": false,
+          "good_with_dogs": false,
+          "good_with_cats": true
+        },
+        "tags": [],
+        "adoption_fee_waived": false,
+        "published_at": "2018-06-16T14:35:37+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fbizou-41923612%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Bizou on Petfinder",
+          "facebook_description": "Bizou is an adoptable domestic medium hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+medium+hair%3F+Bizou+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fbizou-41923612%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Bizou, Up For Adoption Near Fredericton, NB",
+          "twitter_description": "Have you seen a more perfect domestic medium hair? Bizou is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F41923612%2F3%2F%3Fbust%3D1529159575&description=Bizou+is+an+adoptable+domestic+medium+hair+searching+for+a+forever+family+near+Fredericton%2C+NB.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fbizou-41923612%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Bizou on Petfinder",
+          "pinterest_description": "Bizou is an adoptable domestic medium hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/bizou-41923612/nb/fredericton/carma-fredericton-chapter-nb17/",
+          "email_title": "Meet Bizou, a Petfinder adoptable Domestic Medium Hair | Fredericton, NB",
+          "email_description": "Bizou's Profile: https://www.petfinder.com/cat/bizou-41923612/nb/fredericton/carma-fredericton-chapter-nb17/\nBizou's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41923612/3/?bust=1529159575"
+        }
+      },
+      "contact": {
+        "email": "frederictoncarma@gmail.com",
+        "phone": "506-454-2000"
+      },
+      "location": {
+        "address": {
+          "city": "Fredericton",
+          "state": "NB",
+          "postal_code": "E3B 1K8",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 45.966667,
+          "longitude": -66.65
+        },
+        "is_map_hidden": true,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "CARMA, Fredericton Chapter",
+        "display_id": "NB17"
+      }
+    },
+    {
+      "distance": 636,
+      "animal": {
+        "id": 41511877,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Short Hair Mix",
+        "primary_breed": {
+          "id": 86,
+          "name": "Domestic Short Hair"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Black",
+        "age": "Adult",
+        "sex": "Male",
+        "size": "Medium",
+        "coat_length": "Short",
+        "name": "Hobo",
+        "description": "Say hello to Hobo! This sweet boy is full of love. Hobo is cautious of humans when he first meets them. He loves head scratches and will purr up a storm when he receives them. He even loves belly rubs!  Hobo would do well in a home with other cats that he can learn and gain confidence from. He enjoys laying in the sun, playing with his siblings, cuddling and giving kisses to humans won have gained his trust. Hobo needs time to adjust to new surroundings but don't worry-  you will wake up one morning with him curled up beside you in bed!!\n\n(In the group shot hobo is laying down on the right)\n\n  If you are interested in adopting Hobo, please contact us at frederictoncarma@gmail.com. The adoption fee is $125 for one and $200 for two.\n",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/3/?bust=1525004359",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/3/?bust=1525004359",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/3/?bust=1525004359",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/1/?bust=1525004355",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/2/?bust=1525004358"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_cats": true
+        },
+        "tags": [],
+        "adoption_fee_waived": false,
+        "published_at": "2018-04-29T12:24:45+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fhobo-41511877%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Hobo on Petfinder",
+          "facebook_description": "Hobo is an adoptable domestic short hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+short+hair%3F+Hobo+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fhobo-41511877%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Hobo, Up For Adoption Near Fredericton, NB",
+          "twitter_description": "Have you seen a more perfect domestic short hair? Hobo is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F41511877%2F3%2F%3Fbust%3D1525004359&description=Hobo+is+an+adoptable+domestic+short+hair+searching+for+a+forever+family+near+Fredericton%2C+NB.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fhobo-41511877%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Hobo on Petfinder",
+          "pinterest_description": "Hobo is an adoptable domestic short hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/hobo-41511877/nb/fredericton/carma-fredericton-chapter-nb17/",
+          "email_title": "Meet Hobo, a Petfinder adoptable Domestic Short Hair | Fredericton, NB",
+          "email_description": "Hobo's Profile: https://www.petfinder.com/cat/hobo-41511877/nb/fredericton/carma-fredericton-chapter-nb17/\nHobo's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/41511877/3/?bust=1525004359"
+        }
+      },
+      "contact": {
+        "email": "frederictoncarma@gmail.com",
+        "phone": "506-454-2000"
+      },
+      "location": {
+        "address": {
+          "city": "Fredericton",
+          "state": "NB",
+          "postal_code": "E3B 1K8",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 45.966667,
+          "longitude": -66.65
+        },
+        "is_map_hidden": true,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "CARMA, Fredericton Chapter",
+        "display_id": "NB17"
+      }
+    },
+    {
+      "distance": 636,
+      "animal": {
+        "id": 43530268,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Short Hair Mix",
+        "primary_breed": {
+          "id": 86,
+          "name": "Domestic Short Hair"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Tabby (Buff / Tan / Fawn)",
+        "secondary_color": "Tabby (Gray / Blue / Silver)",
+        "tertiary_color": "White",
+        "age": "Young",
+        "sex": "Male",
+        "size": "Medium",
+        "coat_length": "Short",
+        "name": "Mittens",
+        "description": "Say hello to Mittens! This handsome boy can't wait to cuddle with his forever family. Mittens has beautiful markings and a unique stub tail. He has a very friendly personality- Mittens gets along with cats, dogs and children! \n\nIf you are interested in adopting Mittens, please contact us at frederictoncarma@gmail.com. The adoption fee is $125 for one and $200 for two.\n",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43530268/1/?bust=1544722101",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43530268/1/?bust=1544722101",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43530268/1/?bust=1544722101"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_children": true,
+          "good_with_dogs": true,
+          "good_with_cats": true
+        },
+        "tags": [],
+        "adoption_fee_waived": false,
+        "published_at": "2018-12-13T17:29:36+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fmittens-43530268%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Mittens on Petfinder",
+          "facebook_description": "Mittens is an adoptable domestic short hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+short+hair%3F+Mittens+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fmittens-43530268%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Mittens, Up For Adoption Near Fredericton, NB",
+          "twitter_description": "Have you seen a more perfect domestic short hair? Mittens is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F43530268%2F1%2F%3Fbust%3D1544722101&description=Mittens+is+an+adoptable+domestic+short+hair+searching+for+a+forever+family+near+Fredericton%2C+NB.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fmittens-43530268%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Mittens on Petfinder",
+          "pinterest_description": "Mittens is an adoptable domestic short hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/mittens-43530268/nb/fredericton/carma-fredericton-chapter-nb17/",
+          "email_title": "Meet Mittens, a Petfinder adoptable Domestic Short Hair | Fredericton, NB",
+          "email_description": "Mittens's Profile: https://www.petfinder.com/cat/mittens-43530268/nb/fredericton/carma-fredericton-chapter-nb17/\nMittens's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43530268/1/?bust=1544722101"
+        }
+      },
+      "contact": {
+        "email": "frederictoncarma@gmail.com",
+        "phone": "506-454-2000"
+      },
+      "location": {
+        "address": {
+          "city": "Fredericton",
+          "state": "NB",
+          "postal_code": "E3B 1K8",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 45.966667,
+          "longitude": -66.65
+        },
+        "is_map_hidden": true,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "CARMA, Fredericton Chapter",
+        "display_id": "NB17"
+      }
+    },
+    {
+      "distance": 639,
+      "animal": {
+        "id": 10598161,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Short Hair Mix",
+        "primary_breed": {
+          "id": 86,
+          "name": "Domestic Short Hair"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Black",
+        "age": "Adult",
+        "sex": "Female",
+        "size": "Medium",
+        "coat_length": "Short",
+        "name": "Sparrow",
+        "description": "Sparrow (date of birth: May 2007) has beautiful, shiny jet black fur and bright yellow eyes. A very sweet cat, she loves to sunbathe in a warm window and dream of her forever home. Sparrow gets along wonderfully with all of her other foster sisters and brothers.\n\nAll CAPS foster cats are given full health checks, tested negative for feline leukemia and FIV (feline AIDS), vaccinated, neutered/spayed, fecal tested, de-wormed and treated for fleas and ear mites, and micro-chipped.  All diagnosed medical issues are addressed and foster animals are healthy before being listed as adoptable. Foster cats live their lives in cage-free, loving, family settings, spoiled by their caregivers and foster parents.  CAPS foster cats are truly loved.\n\nCAPS cats are intended as INDOOR cats only.  CAPS does not adopt cats as barn cats or as mousers.   CAPS requests that adopters agree that all cats adopted from our care be kept safely indoors for at least ONE YEAR from their adoption date.  All of the cats taken into care by CAPS have been found outside - lost, abandoned, often injured and in poor health.  It is CAPS’ sincere hope that our beautiful and cherished foster cats being adopted to their forever homes will NEVER again find themselves in this situation.  We fervently hope that as their parents/caregivers, you will agree to always keep them safely indoors. Your new little friend will thank you for many years to come! \n\nCAPS will not adopt to individuals whose intention it is to have their adopted cat declawed, in keeping with the Nova Scotia Veterinary Medical Association’ decision that the declawing of cats is ethically unacceptable and banned in Nova Scotia.\n\nBEFORE YOU APPLY TO ADOPT FROM CAPS, please ensure the following:\n•\tthat all companion animals in your household are up to date on their annual vaccines, spay/neutered, and have been to your vet in the past 12 months for an annual health check\n•\tthat all cats in your household have tested negative for feline leukemia and FIV\n•\tthat if you are presently a pet owner or have had a pet in the past 5 years, you have contacted your veterinarian(s) to give your permission to speak with a CAPS volunteer when called for a reference.\n\nPlease review your application carefully before you submit it for consideration. If information on the application is found to be untrue, your application will be immediately declined.\n\nMinimum adoption donation:\n•\t$200 for a kitten 6 months of age and younger\n•\t$150 for cats 7 months and older\n•\tCAPS' Better with a Buddy program allows for the adoption of a second cat (sibling or friend adopted at the same time) for half the minimum adoption donation ($100/$75) \n            \nThis adoption donation helps defer veterinary costs and the ongoing care of the cats while in our foster care system. \n \nVisitation at the foster homes can be scheduled only after an application is approved.\n \nFor more information and to submit an APPLICATION to ADOPT, please visit http://www.caps-annapolis.org/adoption/\n\nThank you for your interest in the foster animals of the Companion Animal Protection Society of Annapolis County.\n\n",
+        "organization_animal_identifier": "M10",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/1/?bust=1405114617",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/1/?bust=1405114617",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/1/?bust=1405114617",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/2/?bust=1357839097",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/3/?bust=1405114617"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_dogs": true,
+          "good_with_cats": true
+        },
+        "tags": [
+          "Loving",
+          "Playful",
+          "Snuggly",
+          "Curious"
+        ],
+        "public_adoption_fee": 150,
+        "adoption_fee_waived": false,
+        "published_at": "2008-04-07T00:00:00+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsparrow-10598161%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Sparrow on Petfinder",
+          "facebook_description": "Sparrow is an adoptable domestic short hair searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+short+hair%3F+Sparrow+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsparrow-10598161%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Sparrow, Up For Adoption Near Middleton, NS",
+          "twitter_description": "Have you seen a more perfect domestic short hair? Sparrow is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F10598161%2F1%2F%3Fbust%3D1405114617&description=Sparrow+is+an+adoptable+domestic+short+hair+searching+for+a+forever+family+near+Middleton%2C+NS.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsparrow-10598161%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Sparrow on Petfinder",
+          "pinterest_description": "Sparrow is an adoptable domestic short hair searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/sparrow-10598161/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/",
+          "email_title": "Meet Sparrow, a Petfinder adoptable Domestic Short Hair | Middleton, NS",
+          "email_description": "Sparrow's Profile: https://www.petfinder.com/cat/sparrow-10598161/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/\nSparrow's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/10598161/1/?bust=1405114617"
+        }
+      },
+      "contact": {
+        "email": "info@caps-annapolis.org",
+        "phone": "(902) 825-2277"
+      },
+      "location": {
+        "address": {
+          "city": "Middleton",
+          "state": "NS",
+          "postal_code": "B0S 1P0",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 44.95,
+          "longitude": -65.066667
+        },
+        "is_map_hidden": true,
+        "open_to_public": false,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "Companion Animal Protection Society of Annapolis County",
+        "display_id": "NS16"
+      }
+    },
+    {
+      "distance": 639,
+      "animal": {
+        "id": 39231948,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Short Hair",
+        "primary_breed": {
+          "id": 86,
+          "name": "Domestic Short Hair"
+        },
+        "is_mixed_breed": false,
+        "primary_color": "Gray / Blue / Silver",
+        "secondary_color": "Tabby (Gray / Blue / Silver)",
+        "age": "Adult",
+        "sex": "Female",
+        "size": "Medium",
+        "coat_length": "Short",
+        "name": "Sally",
+        "description": "Sally (date of birth May 2009) is the most outgoing kitty one could wish to meet. She loves to ride on your shoulder while you are vacuuming or dusting her cottage. She gets on well with everyone, people and other kitties alike. She is a lovely silver grey colour. She is an older girl, about 8 years old, but truly a kitten at heart!\n\nAll CAPS foster cats are given full health checks, tested negative for feline leukemia and FIV (feline AIDS), vaccinated, neutered/spayed, fecal tested, de-wormed and treated for fleas and ear mites, and micro-chipped.  All diagnosed medical issues are addressed and foster animals are healthy before being listed as adoptable. Foster cats live their lives in cage-free, loving, family settings, spoiled by their caregivers and foster parents.  CAPS foster cats are truly loved.\n\nCAPS cats are intended as INDOOR cats only.  CAPS does not adopt cats as barn cats or as mousers.   CAPS requests that adopters agree that all cats adopted from our care be kept safely indoors for at least ONE YEAR from their adoption date.  All of the cats taken into care by CAPS have been found outside - lost, abandoned, often injured and in poor health.  It is CAPS’ sincere hope that our beautiful and cherished foster cats being adopted to their forever homes will NEVER again find themselves in this situation.  We fervently hope that as their parents/caregivers, you will agree to always keep them safely indoors. Your new little friend will thank you for many years to come! \n\nCAPS will not adopt to individuals whose intention it is to have their adopted cat declawed, in keeping with the Nova Scotia Veterinary Medical Association’ decision that the declawing of cats is ethically unacceptable and banned in Nova Scotia.\n\nBEFORE YOU APPLY TO ADOPT FROM CAPS, please ensure the following:\n•\tthat all companion animals in your household are up to date on their annual vaccines, spay/neutered, and have been to your vet in the past 12 months for an annual health check\n•\tthat all cats in your household have tested negative for feline leukemia and FIV\n•\tthat if you are presently a pet owner or have had a pet in the past 5 years, you have contacted your veterinarian(s) to give your permission to speak with a CAPS volunteer when called for a reference.\n\nPlease review your application carefully before you submit it for consideration. If information on the application is found to be untrue, your application will be immediately declined.\n\nMinimum adoption donation:\n•\t$200 for a kitten 6 months of age and younger\n•\t$150 for cats 7 months and older\n            \nThis adoption donation helps defer veterinary costs and the ongoing care of the cats while in our foster care system. \n \nVisitation at the foster homes can be scheduled only after an application is approved.\n \nFor more information and to submit an APPLICATION to ADOPT, please visit http://www.caps-annapolis.org/adoption/\n\nThank you for your interest in the foster animals of the Companion Animal Protection Society of Annapolis County.",
+        "organization_animal_identifier": "CAPS# 09-53",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/5/?bust=1517705116",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/5/?bust=1517705116",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/5/?bust=1517705116",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/1/?bust=1507645194",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/2/?bust=1510421196",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/3/?bust=1513472221",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/6/?bust=1517705116",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/4/?bust=1544571530"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_cats": true
+        },
+        "tags": [
+          "Loving",
+          "Playful",
+          "Active",
+          "Curious"
+        ],
+        "public_adoption_fee": 150,
+        "adoption_fee_waived": false,
+        "published_at": "2017-08-27T16:52:38+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsally-39231948%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Sally on Petfinder",
+          "facebook_description": "Sally is an adoptable domestic short hair searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+short+hair%3F+Sally+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsally-39231948%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Sally, Up For Adoption Near Middleton, NS",
+          "twitter_description": "Have you seen a more perfect domestic short hair? Sally is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F39231948%2F5%2F%3Fbust%3D1517705116&description=Sally+is+an+adoptable+domestic+short+hair+searching+for+a+forever+family+near+Middleton%2C+NS.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fsally-39231948%2Fns%2Fmiddleton%2Fcompanion-animal-protection-society-of-annapolis-county-ns16%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Sally on Petfinder",
+          "pinterest_description": "Sally is an adoptable domestic short hair searching for a forever family near Middleton, NS. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/sally-39231948/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/",
+          "email_title": "Meet Sally, a Petfinder adoptable Domestic Short Hair | Middleton, NS",
+          "email_description": "Sally's Profile: https://www.petfinder.com/cat/sally-39231948/ns/middleton/companion-animal-protection-society-of-annapolis-county-ns16/\nSally's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39231948/5/?bust=1517705116"
+        }
+      },
+      "contact": {
+        "email": "info@caps-annapolis.org",
+        "phone": "(902) 825-2277"
+      },
+      "location": {
+        "address": {
+          "city": "Middleton",
+          "state": "NS",
+          "postal_code": "B0S 1P0",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 44.95,
+          "longitude": -65.066667
+        },
+        "is_map_hidden": true,
+        "open_to_public": false,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "Companion Animal Protection Society of Annapolis County",
+        "display_id": "NS16"
+      }
+    },
+    {
+      "distance": 650,
+      "animal": {
+        "id": 42197083,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Medium Hair Mix",
+        "primary_breed": {
+          "id": 75,
+          "name": "Domestic Medium Hair"
+        },
+        "is_mixed_breed": true,
+        "primary_color": "Black",
+        "age": "Adult",
+        "sex": "Male",
+        "size": "Large",
+        "coat_length": "Medium",
+        "name": "Kit Kat",
+        "description": "FORT KENT, Maine - PAWS Animal Welfare Shelter presents Kit-Kat!\n\nMeet the handsome Kit Kat. Kit Kat is an adorable male goofball. He is a handsome black cat (with some delightful tiny white \"details\") and his medium-length fur is the perfect halfway point between a short and long-haired cat. Kit Kat loves to play with toys and will politely head-butt you to request that you pet his face. He wants to be with a friendly human companion and has lots of love to give if he is given the chance. His hobbies include: playing Scrabble, reading cookbooks, and practicing his country line-dancing.\n\nIf you are interested in seeing him, please visit Valley Cat Haven during open hours on Sat. from 11 a.m. to 1 p.m., Tuesdays from 1 p.m. to 3 p.m. or call Jean at 207-543-7348 for an appointment.\nPAWS  is a nonprofit organization that rescues abandoned cats in the St. John Valley. Organization members believe most pets can be socialized and prefer not to release them back outdoors, as winters are harsh in Northern Maine. PAWS operates as a no-kill shelter. Their mission is to get owners to spay and/or neuter their animals to help cut down on the population and give all animals a better chance at a quality life. PAWS Animal Welfare, Inc. spays, neuters and vaccinates mature animals before they are placed out for adoption.\n\nTo find out more about adopting a cat from PAWS or how you can help the \"PAWS cause,\" visit our Facebook page (\"PAWS Animal Welfare Society, Inc, Fort Kent\"), check out our website: www.ourvalleypaws.org, or call 543-7348.\n\n",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/4/?bust=1544898411",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/4/?bust=1544898411",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/4/?bust=1544898411",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/1/?bust=1544048172",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/2/?bust=1544048172",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/3/?bust=1544048175",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/5/?bust=1544898412",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/6/?bust=1544898412"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_cats": true
+        },
+        "tags": [
+          "Curious",
+          "Handsome",
+          "Playful",
+          "Loves Treats",
+          "Clever",
+          "Gold eyes",
+          "Medium length fur"
+        ],
+        "adoption_fee_waived": false,
+        "published_at": "2018-07-16T02:35:30+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fkit-kat-42197083%2Fme%2Ffort-kent%2Fpaws-animal-welfare-society-inc-me102%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Kit Kat on Petfinder",
+          "facebook_description": "Kit Kat is an adoptable domestic medium hair searching for a forever family near Fort Kent, ME. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+medium+hair%3F+Kit+Kat+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fkit-kat-42197083%2Fme%2Ffort-kent%2Fpaws-animal-welfare-society-inc-me102%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Kit Kat, Up For Adoption Near Fort Kent, ME",
+          "twitter_description": "Have you seen a more perfect domestic medium hair? Kit Kat is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F42197083%2F4%2F%3Fbust%3D1544898411&description=Kit+Kat+is+an+adoptable+domestic+medium+hair+searching+for+a+forever+family+near+Fort+Kent%2C+ME.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fkit-kat-42197083%2Fme%2Ffort-kent%2Fpaws-animal-welfare-society-inc-me102%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Kit Kat on Petfinder",
+          "pinterest_description": "Kit Kat is an adoptable domestic medium hair searching for a forever family near Fort Kent, ME. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/kit-kat-42197083/me/fort-kent/paws-animal-welfare-society-inc-me102/",
+          "email_title": "Meet Kit Kat, a Petfinder adoptable Domestic Medium Hair | Fort Kent, ME",
+          "email_description": "Kit Kat's Profile: https://www.petfinder.com/cat/kit-kat-42197083/me/fort-kent/paws-animal-welfare-society-inc-me102/\nKit Kat's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42197083/4/?bust=1544898411"
+        }
+      },
+      "contact": {
+        "email": "flyingfrog1979@hotmail.com",
+        "phone": "(207) 543-7348"
+      },
+      "location": {
+        "address": {
+          "address1": "PO Box 94",
+          "city": "Fort Kent",
+          "state": "ME",
+          "postal_code": "04743",
+          "country": "US"
+        },
+        "geo": {
+          "latitude": 47.2586,
+          "longitude": -68.59
+        },
+        "is_map_hidden": false,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": {
+          "tuesday": "1 pm to 3 pm",
+          "saturday": "11 am  to 1 pm"
+        }
+      },
+      "organization": {
+        "name": "PAWS Animal Welfare Society, Inc.",
+        "display_id": "ME102"
+      }
+    },
+    {
+      "distance": 636,
+      "animal": {
+        "id": 39157974,
+        "type": {
+          "id": 3,
+          "name": "Cat"
+        },
+        "species": {
+          "id": 5,
+          "name": "Cat"
+        },
+        "breeds_label": "Domestic Long Hair",
+        "primary_breed": {
+          "id": 64,
+          "name": "Domestic Long Hair"
+        },
+        "is_mixed_breed": false,
+        "age": "Adult",
+        "sex": "Male",
+        "size": "Medium",
+        "coat_length": "Long",
+        "name": "Gus & Chili",
+        "description": "Gus and Chilli were brought in for one of our spay/neuter clinics and we put them in the foster program because they are long hair cats and struggle with life outside because of that. They are a bonded pair!  Chilli is shy but Gus is helping her build her confidence!  They both loves pets!  They would do best in a home without young children as they are startled easily by loud noises and fast movements!\nIf you are interested in adopting this gorgeous bonded pair please contact us at Frederictoncarma@gmail.com. \nThe adoption fee is $200.",
+        "primary_photo_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/2/?bust=1503156191",
+        "primary_photo_cropped_url": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/2/?bust=1503156191",
+        "photo_urls": [
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/2/?bust=1503156191",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/1/?bust=1503156162",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/3/?bust=1503156167",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/4/?bust=1503156171",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/5/?bust=1503156173",
+          "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/6/?bust=1503156175"
+        ],
+        "videos": [],
+        "adoption_status": "adoptable",
+        "attributes": [
+          "House trained",
+          "Spay/Neuter",
+          "Shots Current"
+        ],
+        "home_environment_attributes": {
+          "good_with_children": false,
+          "good_with_cats": true
+        },
+        "tags": [],
+        "adoption_fee_waived": false,
+        "published_at": "2017-08-19T15:14:31+00:00",
+        "social_sharing": {
+          "facebook_url": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgus-and-chili-39157974%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dfacebook%26utm_content%3Dadopt",
+          "facebook_title": "Adopt Gus & Chili on Petfinder",
+          "facebook_description": "Gus & Chili is an adoptable domestic long hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "twitter_url": "https://www.twitter.com/intent/tweet/?text=Have+you+seen+a+more+perfect+domestic+long+hair%3F+Gus+%26+Chili+is+looking+for+a+forever+family+on+%40petfinder&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgus-and-chili-39157974%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dtwitter%26utm_content%3Dperfect%2520pet",
+          "twitter_title": "Meet Gus & Chili, Up For Adoption Near Fredericton, NB",
+          "twitter_description": "Have you seen a more perfect domestic long hair? Gus & Chili is looking for a forever family on @petfinder",
+          "pinterest_url": "https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fdl5zpyw5k3jeb.cloudfront.net%2Fphotos%2Fpets%2F39157974%2F2%2F%3Fbust%3D1503156191&description=Gus+%26+Chili+is+an+adoptable+domestic+long+hair+searching+for+a+forever+family+near+Fredericton%2C+NB.+Use+Petfinder+to+find+adoptable+pets+in+your+area.&url=https%3A%2F%2Fwww.petfinder.com%2Fcat%2Fgus-and-chili-39157974%2Fnb%2Ffredericton%2Fcarma-fredericton-chapter-nb17%2F%3Futm_campaign%3Dsocial%2520share%2520button%26utm_medium%3Dsocial%2520media%26utm_source%3Dpinterest%26utm_content%3Dadopt",
+          "pinterest_title": "Adopt Gus & Chili on Petfinder",
+          "pinterest_description": "Gus & Chili is an adoptable domestic long hair searching for a forever family near Fredericton, NB. Use Petfinder to find adoptable pets in your area.",
+          "email_url": "https://www.petfinder.com/cat/gus-and-chili-39157974/nb/fredericton/carma-fredericton-chapter-nb17/",
+          "email_title": "Meet Gus & Chili, a Petfinder adoptable Domestic Long Hair | Fredericton, NB",
+          "email_description": "Gus & Chili's Profile: https://www.petfinder.com/cat/gus-and-chili-39157974/nb/fredericton/carma-fredericton-chapter-nb17/\nGus & Chili's Picture: https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/39157974/2/?bust=1503156191"
+        }
+      },
+      "contact": {
+        "email": "frederictoncarma@gmail.com",
+        "phone": "506-454-2000"
+      },
+      "location": {
+        "address": {
+          "city": "Fredericton",
+          "state": "NB",
+          "postal_code": "E3B 1K8",
+          "country": "CA"
+        },
+        "geo": {
+          "latitude": 45.966667,
+          "longitude": -66.65
+        },
+        "is_map_hidden": true,
+        "open_to_public": true,
+        "by_appointment_only": false,
+        "hours": []
+      },
+      "organization": {
+        "name": "CARMA, Fredericton Chapter",
+        "display_id": "NB17"
+      }
+    }
+  ],
+  "facets": [
+    {
+      "facet": "adoption_status",
+      "values": [
+        {
+          "value": "adopted",
+          "count": 7760914
+        },
+        {
+          "value": "adoptable",
+          "count": 267431
+        },
+        {
+          "value": "hold",
+          "count": 52468
+        },
+        {
+          "value": "adoption-pending",
+          "count": 32095
+        },
+        {
+          "value": "found",
+          "count": 1593
+        }
+      ]
+    },
+    {
+      "facet": "age",
+      "values": [
+        {
+          "value": "Adult",
+          "count": 120681
+        },
+        {
+          "value": "Young",
+          "count": 78849
+        },
+        {
+          "value": "Baby",
+          "count": 49644
+        },
+        {
+          "value": "Senior",
+          "count": 18257
+        }
+      ]
+    },
+    {
+      "facet": "attributes",
+      "values": [
+        {
+          "value": "Spay/Neuter",
+          "count": 213374
+        },
+        {
+          "value": "Shots Current",
+          "count": 183286
+        },
+        {
+          "value": "House trained",
+          "count": 126718
+        },
+        {
+          "value": "Special needs",
+          "count": 9752
+        },
+        {
+          "value": "Declawed",
+          "count": 1976
+        }
+      ]
+    },
+    {
+      "facet": "behaviors",
+      "values": [
+        {
+          "value": "good_with_children",
+          "count": 72366
+        },
+        {
+          "value": "good_with_dogs",
+          "count": 78519
+        },
+        {
+          "value": "good_with_cats",
+          "count": 70334
+        },
+        {
+          "value": "good_with_other_animals",
+          "count": 2326
+        }
+      ]
+    },
+    {
+      "facet": "breed_id",
+      "values": [
+        {
+          "value": "86",
+          "count": 98935
+        },
+        {
+          "value": "344",
+          "count": 19373
+        },
+        {
+          "value": "312",
+          "count": 18567
+        },
+        {
+          "value": "694",
+          "count": 14829
+        },
+        {
+          "value": "130",
+          "count": 13863
+        },
+        {
+          "value": "231",
+          "count": 10846
+        },
+        {
+          "value": "75",
+          "count": 9109
+        },
+        {
+          "value": "388",
+          "count": 8561
+        },
+        {
+          "value": "372",
+          "count": 6131
+        },
+        {
+          "value": "64",
+          "count": 5870
+        },
+        {
+          "value": "215",
+          "count": 5817
+        },
+        {
+          "value": "274",
+          "count": 5517
+        },
+        {
+          "value": "288",
+          "count": 5479
+        },
+        {
+          "value": "181",
+          "count": 5208
+        },
+        {
+          "value": "191",
+          "count": 3922
+        },
+        {
+          "value": "178",
+          "count": 3302
+        },
+        {
+          "value": "246",
+          "count": 3268
+        },
+        {
+          "value": "54",
+          "count": 3113
+        },
+        {
+          "value": "143",
+          "count": 3087
+        },
+        {
+          "value": "43",
+          "count": 2744
+        },
+        {
+          "value": "210",
+          "count": 2575
+        },
+        {
+          "value": "123",
+          "count": 2550
+        },
+        {
+          "value": "185",
+          "count": 2545
+        },
+        {
+          "value": "140",
+          "count": 2536
+        },
+        {
+          "value": "187",
+          "count": 1822
+        },
+        {
+          "value": "290",
+          "count": 1694
+        },
+        {
+          "value": "299",
+          "count": 1505
+        },
+        {
+          "value": "360",
+          "count": 1505
+        },
+        {
+          "value": "358",
+          "count": 1491
+        },
+        {
+          "value": "581",
+          "count": 1461
+        },
+        {
+          "value": "384",
+          "count": 1447
+        },
+        {
+          "value": "227",
+          "count": 1378
+        },
+        {
+          "value": "226",
+          "count": 1338
+        },
+        {
+          "value": "350",
+          "count": 1333
+        },
+        {
+          "value": "202",
+          "count": 1305
+        },
+        {
+          "value": "283",
+          "count": 1257
+        },
+        {
+          "value": "375",
+          "count": 1223
+        },
+        {
+          "value": "347",
+          "count": 1219
+        },
+        {
+          "value": "376",
+          "count": 1202
+        },
+        {
+          "value": "323",
+          "count": 1191
+        },
+        {
+          "value": "634",
+          "count": 1163
+        },
+        {
+          "value": "356",
+          "count": 1127
+        },
+        {
+          "value": "107",
+          "count": 1044
+        },
+        {
+          "value": "321",
+          "count": 997
+        },
+        {
+          "value": "137",
+          "count": 978
+        },
+        {
+          "value": "410",
+          "count": 972
+        },
+        {
+          "value": "353",
+          "count": 950
+        },
+        {
+          "value": "282",
+          "count": 937
+        },
+        {
+          "value": "249",
+          "count": 927
+        },
+        {
+          "value": "370",
+          "count": 904
+        },
+        {
+          "value": "190",
+          "count": 861
+        },
+        {
+          "value": "120",
+          "count": 860
+        },
+        {
+          "value": "574",
+          "count": 778
+        },
+        {
+          "value": "241",
+          "count": 763
+        },
+        {
+          "value": "349",
+          "count": 748
+        },
+        {
+          "value": "203",
+          "count": 738
+        },
+        {
+          "value": "285",
+          "count": 737
+        },
+        {
+          "value": "280",
+          "count": 732
+        },
+        {
+          "value": "345",
+          "count": 711
+        },
+        {
+          "value": "139",
+          "count": 685
+        },
+        {
+          "value": "318",
+          "count": 678
+        },
+        {
+          "value": "253",
+          "count": 665
+        },
+        {
+          "value": "236",
+          "count": 634
+        },
+        {
+          "value": "213",
+          "count": 633
+        },
+        {
+          "value": "50",
+          "count": 617
+        },
+        {
+          "value": "395",
+          "count": 598
+        },
+        {
+          "value": "240",
+          "count": 590
+        },
+        {
+          "value": "243",
+          "count": 587
+        },
+        {
+          "value": "382",
+          "count": 577
+        },
+        {
+          "value": "366",
+          "count": 575
+        },
+        {
+          "value": "63",
+          "count": 569
+        },
+        {
+          "value": "220",
+          "count": 567
+        },
+        {
+          "value": "62",
+          "count": 564
+        },
+        {
+          "value": "242",
+          "count": 548
+        },
+        {
+          "value": "409",
+          "count": 511
+        },
+        {
+          "value": "625",
+          "count": 456
+        },
+        {
+          "value": "176",
+          "count": 453
+        },
+        {
+          "value": "161",
+          "count": 450
+        },
+        {
+          "value": "603",
+          "count": 448
+        },
+        {
+          "value": "47",
+          "count": 390
+        },
+        {
+          "value": "324",
+          "count": 390
+        },
+        {
+          "value": "397",
+          "count": 385
+        },
+        {
+          "value": "247",
+          "count": 377
+        },
+        {
+          "value": "359",
+          "count": 377
+        },
+        {
+          "value": "183",
+          "count": 362
+        },
+        {
+          "value": "275",
+          "count": 353
+        },
+        {
+          "value": "108",
+          "count": 327
+        },
+        {
+          "value": "588",
+          "count": 326
+        },
+        {
+          "value": "263",
+          "count": 324
+        },
+        {
+          "value": "222",
+          "count": 310
+        },
+        {
+          "value": "235",
+          "count": 309
+        },
+        {
+          "value": "300",
+          "count": 305
+        },
+        {
+          "value": "608",
+          "count": 304
+        },
+        {
+          "value": "527",
+          "count": 301
+        },
+        {
+          "value": "403",
+          "count": 292
+        },
+        {
+          "value": "620",
+          "count": 284
+        },
+        {
+          "value": "589",
+          "count": 279
+        },
+        {
+          "value": "127",
+          "count": 273
+        },
+        {
+          "value": "197",
+          "count": 272
+        },
+        {
+          "value": "622",
+          "count": 265
+        },
+        {
+          "value": "100",
+          "count": 259
+        },
+        {
+          "value": "316",
+          "count": 253
+        },
+        {
+          "value": "361",
+          "count": 253
+        },
+        {
+          "value": "207",
+          "count": 245
+        },
+        {
+          "value": "200",
+          "count": 243
+        },
+        {
+          "value": "340",
+          "count": 238
+        },
+        {
+          "value": "142",
+          "count": 235
+        },
+        {
+          "value": "270",
+          "count": 235
+        },
+        {
+          "value": "201",
+          "count": 232
+        },
+        {
+          "value": "357",
+          "count": 232
+        },
+        {
+          "value": "177",
+          "count": 231
+        },
+        {
+          "value": "373",
+          "count": 228
+        },
+        {
+          "value": "582",
+          "count": 228
+        },
+        {
+          "value": "297",
+          "count": 227
+        },
+        {
+          "value": "189",
+          "count": 219
+        },
+        {
+          "value": "374",
+          "count": 215
+        },
+        {
+          "value": "186",
+          "count": 212
+        },
+        {
+          "value": "407",
+          "count": 212
+        },
+        {
+          "value": "338",
+          "count": 210
+        },
+        {
+          "value": "22",
+          "count": 206
+        },
+        {
+          "value": "224",
+          "count": 202
+        },
+        {
+          "value": "611",
+          "count": 197
+        },
+        {
+          "value": "13",
+          "count": 195
+        },
+        {
+          "value": "116",
+          "count": 194
+        },
+        {
+          "value": "572",
+          "count": 189
+        },
+        {
+          "value": "41",
+          "count": 188
+        },
+        {
+          "value": "592",
+          "count": 188
+        },
+        {
+          "value": "49",
+          "count": 172
+        },
+        {
+          "value": "165",
+          "count": 172
+        },
+        {
+          "value": "624",
+          "count": 172
+        },
+        {
+          "value": "205",
+          "count": 163
+        },
+        {
+          "value": "172",
+          "count": 162
+        },
+        {
+          "value": "396",
+          "count": 159
+        },
+        {
+          "value": "252",
+          "count": 156
+        },
+        {
+          "value": "302",
+          "count": 155
+        },
+        {
+          "value": "269",
+          "count": 153
+        },
+        {
+          "value": "571",
+          "count": 153
+        },
+        {
+          "value": "256",
+          "count": 149
+        },
+        {
+          "value": "632",
+          "count": 149
+        },
+        {
+          "value": "221",
+          "count": 146
+        },
+        {
+          "value": "225",
+          "count": 145
+        },
+        {
+          "value": "39",
+          "count": 142
+        },
+        {
+          "value": "114",
+          "count": 136
+        },
+        {
+          "value": "7",
+          "count": 133
+        },
+        {
+          "value": "6",
+          "count": 127
+        },
+        {
+          "value": "119",
+          "count": 127
+        },
+        {
+          "value": "401",
+          "count": 127
+        },
+        {
+          "value": "604",
+          "count": 126
+        },
+        {
+          "value": "605",
+          "count": 126
+        },
+        {
+          "value": "2",
+          "count": 125
+        },
+        {
+          "value": "628",
+          "count": 125
+        },
+        {
+          "value": "145",
+          "count": 124
+        },
+        {
+          "value": "218",
+          "count": 123
+        },
+        {
+          "value": "319",
+          "count": 120
+        },
+        {
+          "value": "268",
+          "count": 119
+        },
+        {
+          "value": "271",
+          "count": 119
+        },
+        {
+          "value": "40",
+          "count": 118
+        },
+        {
+          "value": "594",
+          "count": 115
+        },
+        {
+          "value": "156",
+          "count": 113
+        },
+        {
+          "value": "232",
+          "count": 112
+        },
+        {
+          "value": "179",
+          "count": 110
+        },
+        {
+          "value": "211",
+          "count": 107
+        },
+        {
+          "value": "287",
+          "count": 106
+        },
+        {
+          "value": "102",
+          "count": 102
+        },
+        {
+          "value": "383",
+          "count": 102
+        },
+        {
+          "value": "606",
+          "count": 95
+        },
+        {
+          "value": "599",
+          "count": 92
+        },
+        {
+          "value": "219",
+          "count": 90
+        },
+        {
+          "value": "596",
+          "count": 88
+        },
+        {
+          "value": "51",
+          "count": 87
+        },
+        {
+          "value": "600",
+          "count": 86
+        },
+        {
+          "value": "141",
+          "count": 85
+        },
+        {
+          "value": "151",
+          "count": 85
+        },
+        {
+          "value": "259",
+          "count": 84
+        },
+        {
+          "value": "577",
+          "count": 84
+        },
+        {
+          "value": "229",
+          "count": 83
+        },
+        {
+          "value": "693",
+          "count": 83
+        },
+        {
+          "value": "250",
+          "count": 82
+        },
+        {
+          "value": "618",
+          "count": 81
+        },
+        {
+          "value": "170",
+          "count": 80
+        },
+        {
+          "value": "329",
+          "count": 80
+        },
+        {
+          "value": "230",
+          "count": 79
+        },
+        {
+          "value": "38",
+          "count": 75
+        },
+        {
+          "value": "199",
+          "count": 75
+        },
+        {
+          "value": "325",
+          "count": 72
+        },
+        {
+          "value": "402",
+          "count": 72
+        },
+        {
+          "value": "144",
+          "count": 70
+        },
+        {
+          "value": "255",
+          "count": 70
+        },
+        {
+          "value": "398",
+          "count": 69
+        },
+        {
+          "value": "607",
+          "count": 69
+        },
+        {
+          "value": "368",
+          "count": 67
+        },
+        {
+          "value": "385",
+          "count": 67
+        },
+        {
+          "value": "155",
+          "count": 66
+        },
+        {
+          "value": "257",
+          "count": 66
+        },
+        {
+          "value": "365",
+          "count": 65
+        },
+        {
+          "value": "168",
+          "count": 64
+        },
+        {
+          "value": "404",
+          "count": 64
+        },
+        {
+          "value": "598",
+          "count": 63
+        },
+        {
+          "value": "99",
+          "count": 62
+        },
+        {
+          "value": "111",
+          "count": 61
+        },
+        {
+          "value": "174",
+          "count": 61
+        },
+        {
+          "value": "4",
+          "count": 60
+        },
+        {
+          "value": "163",
+          "count": 60
+        },
+        {
+          "value": "362",
+          "count": 59
+        },
+        {
+          "value": "597",
+          "count": 58
+        },
+        {
+          "value": "251",
+          "count": 57
+        },
+        {
+          "value": "52",
+          "count": 56
+        },
+        {
+          "value": "570",
+          "count": 56
+        },
+        {
+          "value": "24",
+          "count": 55
+        },
+        {
+          "value": "394",
+          "count": 54
+        },
+        {
+          "value": "593",
+          "count": 54
+        },
+        {
+          "value": "5",
+          "count": 53
+        },
+        {
+          "value": "164",
+          "count": 53
+        },
+        {
+          "value": "286",
+          "count": 53
+        },
+        {
+          "value": "239",
+          "count": 52
+        },
+        {
+          "value": "613",
+          "count": 52
+        },
+        {
+          "value": "377",
+          "count": 51
+        },
+        {
+          "value": "98",
+          "count": 49
+        },
+        {
+          "value": "332",
+          "count": 44
+        },
+        {
+          "value": "678",
+          "count": 44
+        },
+        {
+          "value": "610",
+          "count": 43
+        },
+        {
+          "value": "223",
+          "count": 42
+        },
+        {
+          "value": "343",
+          "count": 42
+        },
+        {
+          "value": "405",
+          "count": 42
+        },
+        {
+          "value": "258",
+          "count": 41
+        },
+        {
+          "value": "670",
+          "count": 41
+        },
+        {
+          "value": "42",
+          "count": 40
+        },
+        {
+          "value": "154",
+          "count": 40
+        },
+        {
+          "value": "573",
+          "count": 40
+        },
+        {
+          "value": "585",
+          "count": 40
+        },
+        {
+          "value": "696",
+          "count": 40
+        },
+        {
+          "value": "206",
+          "count": 39
+        },
+        {
+          "value": "352",
+          "count": 39
+        },
+        {
+          "value": "408",
+          "count": 39
+        },
+        {
+          "value": "716",
+          "count": 39
+        },
+        {
+          "value": "327",
+          "count": 38
+        },
+        {
+          "value": "609",
+          "count": 38
+        },
+        {
+          "value": "188",
+          "count": 37
+        },
+        {
+          "value": "555",
+          "count": 37
+        },
+        {
+          "value": "1",
+          "count": 36
+        },
+        {
+          "value": "339",
+          "count": 34
+        },
+        {
+          "value": "528",
+          "count": 34
+        },
+        {
+          "value": "301",
+          "count": 33
+        },
+        {
+          "value": "293",
+          "count": 32
+        },
+        {
+          "value": "296",
+          "count": 32
+        },
+        {
+          "value": "330",
+          "count": 32
+        },
+        {
+          "value": "158",
+          "count": 31
+        },
+        {
+          "value": "586",
+          "count": 31
+        },
+        {
+          "value": "616",
+          "count": 31
+        },
+        {
+          "value": "18",
+          "count": 30
+        },
+        {
+          "value": "277",
+          "count": 30
+        },
+        {
+          "value": "192",
+          "count": 29
+        },
+        {
+          "value": "380",
+          "count": 29
+        },
+        {
+          "value": "37",
+          "count": 28
+        },
+        {
+          "value": "115",
+          "count": 28
+        },
+        {
+          "value": "175",
+          "count": 28
+        },
+        {
+          "value": "208",
+          "count": 27
+        },
+        {
+          "value": "566",
+          "count": 27
+        },
+        {
+          "value": "167",
+          "count": 26
+        },
+        {
+          "value": "591",
+          "count": 26
+        },
+        {
+          "value": "601",
+          "count": 26
+        },
+        {
+          "value": "101",
+          "count": 25
+        },
+        {
+          "value": "322",
+          "count": 25
+        },
+        {
+          "value": "575",
+          "count": 25
+        },
+        {
+          "value": "621",
+          "count": 25
+        },
+        {
+          "value": "166",
+          "count": 24
+        },
+        {
+          "value": "291",
+          "count": 24
+        },
+        {
+          "value": "334",
+          "count": 24
+        },
+        {
+          "value": "363",
+          "count": 24
+        },
+        {
+          "value": "125",
+          "count": 23
+        },
+        {
+          "value": "169",
+          "count": 23
+        },
+        {
+          "value": "391",
+          "count": 23
+        },
+        {
+          "value": "284",
+          "count": 22
+        },
+        {
+          "value": "392",
+          "count": 22
+        },
+        {
+          "value": "671",
+          "count": 22
+        },
+        {
+          "value": "110",
+          "count": 21
+        },
+        {
+          "value": "112",
+          "count": 21
+        },
+        {
+          "value": "336",
+          "count": 21
+        },
+        {
+          "value": "576",
+          "count": 21
+        },
+        {
+          "value": "615",
+          "count": 21
+        },
+        {
+          "value": "103",
+          "count": 20
+        },
+        {
+          "value": "371",
+          "count": 20
+        },
+        {
+          "value": "612",
+          "count": 20
+        },
+        {
+          "value": "707",
+          "count": 20
+        },
+        {
+          "value": "19",
+          "count": 19
+        },
+        {
+          "value": "162",
+          "count": 19
+        },
+        {
+          "value": "579",
+          "count": 19
+        },
+        {
+          "value": "121",
+          "count": 18
+        },
+        {
+          "value": "262",
+          "count": 18
+        },
+        {
+          "value": "273",
+          "count": 18
+        },
+        {
+          "value": "294",
+          "count": 18
+        },
+        {
+          "value": "619",
+          "count": 18
+        },
+        {
+          "value": "674",
+          "count": 18
+        },
+        {
+          "value": "14",
+          "count": 17
+        },
+        {
+          "value": "56",
+          "count": 17
+        },
+        {
+          "value": "305",
+          "count": 17
+        },
+        {
+          "value": "335",
+          "count": 17
+        },
+        {
+          "value": "614",
+          "count": 17
+        },
+        {
+          "value": "710",
+          "count": 17
+        },
+        {
+          "value": "712",
+          "count": 17
+        },
+        {
+          "value": "118",
+          "count": 16
+        },
+        {
+          "value": "124",
+          "count": 16
+        },
+        {
+          "value": "138",
+          "count": 16
+        },
+        {
+          "value": "549",
+          "count": 16
+        },
+        {
+          "value": "12",
+          "count": 15
+        },
+        {
+          "value": "17",
+          "count": 15
+        },
+        {
+          "value": "46",
+          "count": 15
+        },
+        {
+          "value": "149",
+          "count": 15
+        },
+        {
+          "value": "278",
+          "count": 15
+        },
+        {
+          "value": "390",
+          "count": 15
+        },
+        {
+          "value": "557",
+          "count": 15
+        },
+        {
+          "value": "595",
+          "count": 15
+        },
+        {
+          "value": "681",
+          "count": 15
+        },
+        {
+          "value": "109",
+          "count": 14
+        },
+        {
+          "value": "171",
+          "count": 14
+        },
+        {
+          "value": "580",
+          "count": 14
+        },
+        {
+          "value": "699",
+          "count": 14
+        },
+        {
+          "value": "117",
+          "count": 13
+        },
+        {
+          "value": "195",
+          "count": 13
+        },
+        {
+          "value": "212",
+          "count": 13
+        },
+        {
+          "value": "314",
+          "count": 13
+        },
+        {
+          "value": "342",
+          "count": 13
+        },
+        {
+          "value": "568",
+          "count": 13
+        },
+        {
+          "value": "630",
+          "count": 13
+        },
+        {
+          "value": "698",
+          "count": 13
+        },
+        {
+          "value": "9",
+          "count": 12
+        },
+        {
+          "value": "48",
+          "count": 12
+        },
+        {
+          "value": "193",
+          "count": 12
+        },
+        {
+          "value": "198",
+          "count": 12
+        },
+        {
+          "value": "540",
+          "count": 12
+        },
+        {
+          "value": "627",
+          "count": 12
+        },
+        {
+          "value": "695",
+          "count": 12
+        },
+        {
+          "value": "44",
+          "count": 11
+        },
+        {
+          "value": "150",
+          "count": 11
+        },
+        {
+          "value": "146",
+          "count": 10
+        },
+        {
+          "value": "173",
+          "count": 10
+        },
+        {
+          "value": "272",
+          "count": 10
+        },
+        {
+          "value": "406",
+          "count": 10
+        },
+        {
+          "value": "584",
+          "count": 10
+        },
+        {
+          "value": "157",
+          "count": 9
+        },
+        {
+          "value": "238",
+          "count": 9
+        },
+        {
+          "value": "313",
+          "count": 9
+        },
+        {
+          "value": "529",
+          "count": 9
+        },
+        {
+          "value": "617",
+          "count": 9
+        },
+        {
+          "value": "684",
+          "count": 9
+        },
+        {
+          "value": "715",
+          "count": 9
+        },
+        {
+          "value": "228",
+          "count": 8
+        },
+        {
+          "value": "244",
+          "count": 8
+        },
+        {
+          "value": "254",
+          "count": 8
+        },
+        {
+          "value": "308",
+          "count": 8
+        },
+        {
+          "value": "320",
+          "count": 8
+        },
+        {
+          "value": "346",
+          "count": 8
+        },
+        {
+          "value": "556",
+          "count": 8
+        },
+        {
+          "value": "569",
+          "count": 8
+        },
+        {
+          "value": "602",
+          "count": 8
+        },
+        {
+          "value": "629",
+          "count": 8
+        },
+        {
+          "value": "633",
+          "count": 8
+        },
+        {
+          "value": "708",
+          "count": 8
+        },
+        {
+          "value": "113",
+          "count": 7
+        },
+        {
+          "value": "180",
+          "count": 7
+        },
+        {
+          "value": "267",
+          "count": 7
+        },
+        {
+          "value": "281",
+          "count": 7
+        },
+        {
+          "value": "315",
+          "count": 7
+        },
+        {
+          "value": "389",
+          "count": 7
+        },
+        {
+          "value": "561",
+          "count": 7
+        },
+        {
+          "value": "631",
+          "count": 7
+        },
+        {
+          "value": "701",
+          "count": 7
+        },
+        {
+          "value": "25",
+          "count": 6
+        },
+        {
+          "value": "61",
+          "count": 6
+        },
+        {
+          "value": "261",
+          "count": 6
+        },
+        {
+          "value": "583",
+          "count": 6
+        },
+        {
+          "value": "623",
+          "count": 6
+        },
+        {
+          "value": "672",
+          "count": 6
+        },
+        {
+          "value": "682",
+          "count": 6
+        },
+        {
+          "value": "686",
+          "count": 6
+        },
+        {
+          "value": "15",
+          "count": 5
+        },
+        {
+          "value": "60",
+          "count": 5
+        },
+        {
+          "value": "105",
+          "count": 5
+        },
+        {
+          "value": "129",
+          "count": 5
+        },
+        {
+          "value": "147",
+          "count": 5
+        },
+        {
+          "value": "159",
+          "count": 5
+        },
+        {
+          "value": "216",
+          "count": 5
+        },
+        {
+          "value": "217",
+          "count": 5
+        },
+        {
+          "value": "245",
+          "count": 5
+        },
+        {
+          "value": "266",
+          "count": 5
+        },
+        {
+          "value": "279",
+          "count": 5
+        },
+        {
+          "value": "304",
+          "count": 5
+        },
+        {
+          "value": "309",
+          "count": 5
+        },
+        {
+          "value": "337",
+          "count": 5
+        },
+        {
+          "value": "387",
+          "count": 5
+        },
+        {
+          "value": "474",
+          "count": 5
+        },
+        {
+          "value": "543",
+          "count": 5
+        },
+        {
+          "value": "567",
+          "count": 5
+        },
+        {
+          "value": "11",
+          "count": 4
+        },
+        {
+          "value": "16",
+          "count": 4
+        },
+        {
+          "value": "45",
+          "count": 4
+        },
+        {
+          "value": "104",
+          "count": 4
+        },
+        {
+          "value": "184",
+          "count": 4
+        },
+        {
+          "value": "214",
+          "count": 4
+        },
+        {
+          "value": "265",
+          "count": 4
+        },
+        {
+          "value": "310",
+          "count": 4
+        },
+        {
+          "value": "378",
+          "count": 4
+        },
+        {
+          "value": "393",
+          "count": 4
+        },
+        {
+          "value": "400",
+          "count": 4
+        },
+        {
+          "value": "552",
+          "count": 4
+        },
+        {
+          "value": "637",
+          "count": 4
+        },
+        {
+          "value": "3",
+          "count": 3
+        },
+        {
+          "value": "29",
+          "count": 3
+        },
+        {
+          "value": "35",
+          "count": 3
+        },
+        {
+          "value": "53",
+          "count": 3
+        },
+        {
+          "value": "106",
+          "count": 3
+        },
+        {
+          "value": "160",
+          "count": 3
+        },
+        {
+          "value": "248",
+          "count": 3
+        },
+        {
+          "value": "276",
+          "count": 3
+        },
+        {
+          "value": "348",
+          "count": 3
+        },
+        {
+          "value": "539",
+          "count": 3
+        },
+        {
+          "value": "542",
+          "count": 3
+        },
+        {
+          "value": "551",
+          "count": 3
+        },
+        {
+          "value": "685",
+          "count": 3
+        },
+        {
+          "value": "705",
+          "count": 3
+        },
+        {
+          "value": "8",
+          "count": 2
+        },
+        {
+          "value": "58",
+          "count": 2
+        },
+        {
+          "value": "59",
+          "count": 2
+        },
+        {
+          "value": "122",
+          "count": 2
+        },
+        {
+          "value": "126",
+          "count": 2
+        },
+        {
+          "value": "182",
+          "count": 2
+        },
+        {
+          "value": "196",
+          "count": 2
+        },
+        {
+          "value": "234",
+          "count": 2
+        },
+        {
+          "value": "264",
+          "count": 2
+        },
+        {
+          "value": "311",
+          "count": 2
+        },
+        {
+          "value": "326",
+          "count": 2
+        },
+        {
+          "value": "333",
+          "count": 2
+        },
+        {
+          "value": "351",
+          "count": 2
+        },
+        {
+          "value": "367",
+          "count": 2
+        },
+        {
+          "value": "379",
+          "count": 2
+        },
+        {
+          "value": "519",
+          "count": 2
+        },
+        {
+          "value": "530",
+          "count": 2
+        },
+        {
+          "value": "531",
+          "count": 2
+        },
+        {
+          "value": "532",
+          "count": 2
+        },
+        {
+          "value": "533",
+          "count": 2
+        },
+        {
+          "value": "534",
+          "count": 2
+        },
+        {
+          "value": "535",
+          "count": 2
+        },
+        {
+          "value": "546",
+          "count": 2
+        },
+        {
+          "value": "547",
+          "count": 2
+        },
+        {
+          "value": "578",
+          "count": 2
+        },
+        {
+          "value": "587",
+          "count": 2
+        },
+        {
+          "value": "676",
+          "count": 2
+        },
+        {
+          "value": "703",
+          "count": 2
+        },
+        {
+          "value": "706",
+          "count": 2
+        },
+        {
+          "value": "711",
+          "count": 2
+        },
+        {
+          "value": "713",
+          "count": 2
+        },
+        {
+          "value": "714",
+          "count": 2
+        },
+        {
+          "value": "717",
+          "count": 2
+        },
+        {
+          "value": "20",
+          "count": 1
+        },
+        {
+          "value": "33",
+          "count": 1
+        },
+        {
+          "value": "36",
+          "count": 1
+        },
+        {
+          "value": "57",
+          "count": 1
+        },
+        {
+          "value": "128",
+          "count": 1
+        },
+        {
+          "value": "153",
+          "count": 1
+        },
+        {
+          "value": "260",
+          "count": 1
+        },
+        {
+          "value": "289",
+          "count": 1
+        },
+        {
+          "value": "298",
+          "count": 1
+        },
+        {
+          "value": "306",
+          "count": 1
+        },
+        {
+          "value": "307",
+          "count": 1
+        },
+        {
+          "value": "341",
+          "count": 1
+        },
+        {
+          "value": "369",
+          "count": 1
+        },
+        {
+          "value": "386",
+          "count": 1
+        },
+        {
+          "value": "399",
+          "count": 1
+        },
+        {
+          "value": "511",
+          "count": 1
+        },
+        {
+          "value": "514",
+          "count": 1
+        },
+        {
+          "value": "516",
+          "count": 1
+        },
+        {
+          "value": "526",
+          "count": 1
+        },
+        {
+          "value": "541",
+          "count": 1
+        },
+        {
+          "value": "550",
+          "count": 1
+        },
+        {
+          "value": "560",
+          "count": 1
+        },
+        {
+          "value": "590",
+          "count": 1
+        },
+        {
+          "value": "651",
+          "count": 1
+        },
+        {
+          "value": "660",
+          "count": 1
+        },
+        {
+          "value": "675",
+          "count": 1
+        },
+        {
+          "value": "679",
+          "count": 1
+        },
+        {
+          "value": "683",
+          "count": 1
+        },
+        {
+          "value": "692",
+          "count": 1
+        },
+        {
+          "value": "700",
+          "count": 1
+        },
+        {
+          "value": "709",
+          "count": 1
+        },
+        {
+          "value": "10",
+          "count": 0
+        },
+        {
+          "value": "21",
+          "count": 0
+        },
+        {
+          "value": "23",
+          "count": 0
+        },
+        {
+          "value": "26",
+          "count": 0
+        },
+        {
+          "value": "30",
+          "count": 0
+        },
+        {
+          "value": "31",
+          "count": 0
+        },
+        {
+          "value": "34",
+          "count": 0
+        },
+        {
+          "value": "55",
+          "count": 0
+        },
+        {
+          "value": "148",
+          "count": 0
+        },
+        {
+          "value": "152",
+          "count": 0
+        },
+        {
+          "value": "194",
+          "count": 0
+        },
+        {
+          "value": "204",
+          "count": 0
+        },
+        {
+          "value": "209",
+          "count": 0
+        },
+        {
+          "value": "233",
+          "count": 0
+        },
+        {
+          "value": "237",
+          "count": 0
+        },
+        {
+          "value": "292",
+          "count": 0
+        },
+        {
+          "value": "295",
+          "count": 0
+        },
+        {
+          "value": "303",
+          "count": 0
+        },
+        {
+          "value": "317",
+          "count": 0
+        },
+        {
+          "value": "328",
+          "count": 0
+        },
+        {
+          "value": "331",
+          "count": 0
+        },
+        {
+          "value": "354",
+          "count": 0
+        },
+        {
+          "value": "355",
+          "count": 0
+        },
+        {
+          "value": "364",
+          "count": 0
+        },
+        {
+          "value": "381",
+          "count": 0
+        },
+        {
+          "value": "459",
+          "count": 0
+        },
+        {
+          "value": "512",
+          "count": 0
+        },
+        {
+          "value": "513",
+          "count": 0
+        },
+        {
+          "value": "517",
+          "count": 0
+        },
+        {
+          "value": "518",
+          "count": 0
+        },
+        {
+          "value": "520",
+          "count": 0
+        },
+        {
+          "value": "521",
+          "count": 0
+        },
+        {
+          "value": "522",
+          "count": 0
+        },
+        {
+          "value": "524",
+          "count": 0
+        },
+        {
+          "value": "525",
+          "count": 0
+        },
+        {
+          "value": "536",
+          "count": 0
+        },
+        {
+          "value": "538",
+          "count": 0
+        },
+        {
+          "value": "544",
+          "count": 0
+        },
+        {
+          "value": "545",
+          "count": 0
+        },
+        {
+          "value": "548",
+          "count": 0
+        },
+        {
+          "value": "553",
+          "count": 0
+        },
+        {
+          "value": "554",
+          "count": 0
+        },
+        {
+          "value": "558",
+          "count": 0
+        },
+        {
+          "value": "559",
+          "count": 0
+        },
+        {
+          "value": "562",
+          "count": 0
+        },
+        {
+          "value": "563",
+          "count": 0
+        },
+        {
+          "value": "564",
+          "count": 0
+        },
+        {
+          "value": "626",
+          "count": 0
+        },
+        {
+          "value": "636",
+          "count": 0
+        },
+        {
+          "value": "638",
+          "count": 0
+        },
+        {
+          "value": "640",
+          "count": 0
+        },
+        {
+          "value": "641",
+          "count": 0
+        },
+        {
+          "value": "645",
+          "count": 0
+        },
+        {
+          "value": "647",
+          "count": 0
+        },
+        {
+          "value": "649",
+          "count": 0
+        },
+        {
+          "value": "650",
+          "count": 0
+        },
+        {
+          "value": "652",
+          "count": 0
+        },
+        {
+          "value": "654",
+          "count": 0
+        },
+        {
+          "value": "657",
+          "count": 0
+        },
+        {
+          "value": "658",
+          "count": 0
+        },
+        {
+          "value": "659",
+          "count": 0
+        },
+        {
+          "value": "663",
+          "count": 0
+        },
+        {
+          "value": "667",
+          "count": 0
+        },
+        {
+          "value": "668",
+          "count": 0
+        },
+        {
+          "value": "669",
+          "count": 0
+        },
+        {
+          "value": "673",
+          "count": 0
+        },
+        {
+          "value": "677",
+          "count": 0
+        },
+        {
+          "value": "680",
+          "count": 0
+        },
+        {
+          "value": "687",
+          "count": 0
+        },
+        {
+          "value": "688",
+          "count": 0
+        },
+        {
+          "value": "689",
+          "count": 0
+        },
+        {
+          "value": "697",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "facet": "coat_length",
+      "values": [
+        {
+          "value": "Short",
+          "count": 98087
+        },
+        {
+          "value": "Medium",
+          "count": 16298
+        },
+        {
+          "value": "Long",
+          "count": 5813
+        },
+        {
+          "value": "Wire",
+          "count": 621
+        },
+        {
+          "value": "Curly",
+          "count": 305
+        },
+        {
+          "value": "Hairless",
+          "count": 88
+        }
+      ]
+    },
+    {
+      "facet": "color",
+      "values": [
+        {
+          "value": "Black",
+          "count": 33020
+        },
+        {
+          "value": "White / Cream",
+          "count": 24219
+        },
+        {
+          "value": "White",
+          "count": 11423
+        },
+        {
+          "value": "Black & White / Tuxedo",
+          "count": 11208
+        },
+        {
+          "value": "Yellow / Tan / Blond / Fawn",
+          "count": 9662
+        },
+        {
+          "value": "Brown / Chocolate",
+          "count": 9629
+        },
+        {
+          "value": "Gray / Blue / Silver",
+          "count": 8627
+        },
+        {
+          "value": "Tabby (Brown / Chocolate)",
+          "count": 7361
+        },
+        {
+          "value": "Tabby (Gray / Blue / Silver)",
+          "count": 5156
+        },
+        {
+          "value": "Gray & White",
+          "count": 4933
+        },
+        {
+          "value": "Red / Chestnut / Orange",
+          "count": 4635
+        },
+        {
+          "value": "Brindle",
+          "count": 4610
+        },
+        {
+          "value": "Tricolor (Brown, Black, & White)",
+          "count": 4500
+        },
+        {
+          "value": "Orange / Red",
+          "count": 3937
+        },
+        {
+          "value": "Orange & White",
+          "count": 3413
+        },
+        {
+          "value": "Tabby (Orange / Red)",
+          "count": 3392
+        },
+        {
+          "value": "Bicolor",
+          "count": 2887
+        },
+        {
+          "value": "Calico",
+          "count": 2843
+        },
+        {
+          "value": "Apricot / Beige",
+          "count": 2790
+        },
+        {
+          "value": "Tortoiseshell",
+          "count": 2553
+        },
+        {
+          "value": "Tabby (Tiger Striped)",
+          "count": 2195
+        },
+        {
+          "value": "Golden",
+          "count": 2051
+        },
+        {
+          "value": "Tabby (Buff / Tan / Fawn)",
+          "count": 1939
+        },
+        {
+          "value": "Buff / Tan / Fawn",
+          "count": 1309
+        },
+        {
+          "value": "Dilute Tortoiseshell",
+          "count": 767
+        },
+        {
+          "value": "Torbie",
+          "count": 729
+        },
+        {
+          "value": "Dilute Calico",
+          "count": 695
+        },
+        {
+          "value": "Sable",
+          "count": 615
+        },
+        {
+          "value": "Buff & White",
+          "count": 560
+        },
+        {
+          "value": "Merle (Blue)",
+          "count": 529
+        },
+        {
+          "value": "Blue / Gray",
+          "count": 431
+        },
+        {
+          "value": "Cream / Ivory",
+          "count": 404
+        },
+        {
+          "value": "Merle (Red)",
+          "count": 332
+        },
+        {
+          "value": "Tan",
+          "count": 314
+        },
+        {
+          "value": "Bay",
+          "count": 275
+        },
+        {
+          "value": "Seal Point",
+          "count": 265
+        },
+        {
+          "value": "Harlequin",
+          "count": 254
+        },
+        {
+          "value": "Chestnut / Sorrel",
+          "count": 249
+        },
+        {
+          "value": "Flame Point",
+          "count": 247
+        },
+        {
+          "value": "Tabby (Leopard / Spotted)",
+          "count": 212
+        },
+        {
+          "value": "Smoke",
+          "count": 192
+        },
+        {
+          "value": "Agouti",
+          "count": 179
+        },
+        {
+          "value": "Green",
+          "count": 171
+        },
+        {
+          "value": "Yellow",
+          "count": 163
+        },
+        {
+          "value": "Cream Point",
+          "count": 149
+        },
+        {
+          "value": "Blue Cream",
+          "count": 147
+        },
+        {
+          "value": "Gray",
+          "count": 137
+        },
+        {
+          "value": "Chocolate Point",
+          "count": 128
+        },
+        {
+          "value": "Blue Point",
+          "count": 123
+        },
+        {
+          "value": "Lilac Point",
+          "count": 117
+        },
+        {
+          "value": "Brown",
+          "count": 114
+        },
+        {
+          "value": "Blue",
+          "count": 96
+        },
+        {
+          "value": "Cream",
+          "count": 66
+        },
+        {
+          "value": "Red",
+          "count": 65
+        },
+        {
+          "value": "Black & White",
+          "count": 51
+        },
+        {
+          "value": "White (Dark-Eyed)",
+          "count": 51
+        },
+        {
+          "value": "Paint",
+          "count": 38
+        },
+        {
+          "value": "Orange",
+          "count": 36
+        },
+        {
+          "value": "Champagne",
+          "count": 35
+        },
+        {
+          "value": "Black Sable",
+          "count": 31
+        },
+        {
+          "value": "Albino",
+          "count": 29
+        },
+        {
+          "value": "Palomino",
+          "count": 26
+        },
+        {
+          "value": "Pink",
+          "count": 26
+        },
+        {
+          "value": "Appaloosa",
+          "count": 21
+        },
+        {
+          "value": "Cinnamon",
+          "count": 21
+        },
+        {
+          "value": "Pinto",
+          "count": 21
+        },
+        {
+          "value": "Silver Marten",
+          "count": 21
+        },
+        {
+          "value": "Red Roan",
+          "count": 16
+        },
+        {
+          "value": "Liver",
+          "count": 11
+        },
+        {
+          "value": "Dun",
+          "count": 10
+        },
+        {
+          "value": "Lilac",
+          "count": 9
+        },
+        {
+          "value": "Olive",
+          "count": 9
+        },
+        {
+          "value": "Bay Roan",
+          "count": 8
+        },
+        {
+          "value": "Dapple Gray",
+          "count": 8
+        },
+        {
+          "value": "Rust / Rufous",
+          "count": 8
+        },
+        {
+          "value": "Spotted",
+          "count": 8
+        },
+        {
+          "value": "Buckskin",
+          "count": 7
+        },
+        {
+          "value": "Buff",
+          "count": 6
+        },
+        {
+          "value": "Purple / Violet",
+          "count": 4
+        },
+        {
+          "value": "Blue Roan",
+          "count": 3
+        },
+        {
+          "value": "Piebald",
+          "count": 3
+        },
+        {
+          "value": "Cremello",
+          "count": 2
+        },
+        {
+          "value": "Roan",
+          "count": 2
+        },
+        {
+          "value": "Grullo",
+          "count": 1
+        },
+        {
+          "value": "Perlino",
+          "count": 1
+        },
+        {
+          "value": "Iridescent",
+          "count": 0
+        },
+        {
+          "value": "Purple",
+          "count": 0
+        },
+        {
+          "value": "Silver Bay",
+          "count": 0
+        },
+        {
+          "value": "Silver Buckskin",
+          "count": 0
+        },
+        {
+          "value": "Silver Dapple",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "facet": "sex",
+      "values": [
+        {
+          "value": "Female",
+          "count": 136949
+        },
+        {
+          "value": "Male",
+          "count": 130053
+        },
+        {
+          "value": "Unknown",
+          "count": 429
+        }
+      ]
+    },
+    {
+      "facet": "size",
+      "values": [
+        {
+          "value": "Medium",
+          "count": 147961
+        },
+        {
+          "value": "Small",
+          "count": 64613
+        },
+        {
+          "value": "Large",
+          "count": 50659
+        },
+        {
+          "value": "Extra Large",
+          "count": 4198
+        }
+      ]
+    },
+    {
+      "facet": "type_id",
+      "values": [
+        {
+          "value": "3",
+          "count": 131510
+        },
+        {
+          "value": "2",
+          "count": 124157
+        },
+        {
+          "value": "8",
+          "count": 5085
+        },
+        {
+          "value": "1",
+          "count": 2667
+        },
+        {
+          "value": "4",
+          "count": 1489
+        },
+        {
+          "value": "9",
+          "count": 1438
+        },
+        {
+          "value": "6",
+          "count": 549
+        },
+        {
+          "value": "7",
+          "count": 536
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "count_per_page": 200,
+    "total_count": 267431,
+    "current_page": 1,
+    "total_pages": 1338
+  }
+}
