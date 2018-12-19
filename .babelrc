@@ -1,0 +1,34 @@
+{
+  "env": {
+    "development": {
+      "presets": ["next/babel"],
+      "plugins": [
+        "react-element-info",
+        ["module-resolver", {
+          "root": ["./"],
+          "alias": {
+            "@components": "./components",
+            "@styles": "./components/styles",
+            "@theme": "./components/theme",
+            "@static": "./static"
+          }
+        }]
+      ]
+    },
+    "production": {
+      "presets": ["next/babel"],
+      "plugins": [
+        "transform-remove-console",
+        ["module-resolver", {
+          "root": ["./"],
+          "alias": {
+            "@components": "./components",
+            "@styles": "./components/styles",
+            "@theme": "./components/theme",
+            "@static": "./static"
+          }
+        }]
+      ]
+    }
+  }
+}
