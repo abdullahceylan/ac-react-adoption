@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import PropTypes from 'prop-types';
 import range from 'lodash/range';
 import {
@@ -17,7 +17,18 @@ import arrowLeft from './images/left-arrow.svg';
 
 const SliderContext = React.createContext();
 
-const SliderConsumer = props => {};
+const SliderConsumer = props => (
+  <SliderContext.Consumer {...props}>
+    {context => {
+      if (!context) {
+        throw new Error(
+          `Slider compound components cannot be rendered outside the Slider component`
+        );
+      }
+      return props.children(context);
+    }}
+  </SliderContext.Consumer>
+);
 
 class Slider extends React.PureComponent {
   state = {
@@ -25,24 +36,53 @@ class Slider extends React.PureComponent {
     slideCount: 0
   };
 
-  static LeftArrow = ({ showArrows, children, onPrev }) =>
-    showArrows ? <ArrowLeft onClick={onPrev}>{children}</ArrowLeft> : null;
-  static RightArrow = ({ showArrows, children, onNext }) =>
-    showArrows ? <ArrowRight onClick={onNext}>{children}</ArrowRight> : null;
-  static Content = ({ currentIndex, slideCount, slides }) =>
-    slideCount ? <ElementWrapper>{slides[currentIndex]}</ElementWrapper> : null;
-  static Dots = ({ showDots, slideCount, currentIndex }) =>
-    showDots ? (
-      <SliderFooter>
-        {range(slideCount).map(item => (
-          <Dot
-            key={item}
-            selected={item === currentIndex}
-            onClick={() => this.setState({ currentIndex: item })}
-          />
-        ))}
-      </SliderFooter>
-    ) : null;
+  static LeftArrow = ({ children }) => (
+    <SliderConsumer>
+      {({ nav }) =>
+        nav.showArrows ? (
+          <ArrowLeft onClick={nav.onPrev}>{children}</ArrowLeft>
+        ) : null
+      }
+    </SliderConsumer>
+  );
+
+  static RightArrow = ({ children }) => (
+    <SliderConsumer>
+      {({ nav }) =>
+        nav.showArrows ? (
+          <ArrowRight onClick={nav.onNext}>{children}</ArrowRight>
+        ) : null
+      }
+    </SliderConsumer>
+  );
+
+  static Content = props => (
+    <SliderConsumer>
+      {({ currentIndex, slideCount, slides }) =>
+        slideCount ? (
+          <ElementWrapper>{slides[currentIndex]}</ElementWrapper>
+        ) : null
+      }
+    </SliderConsumer>
+  );
+
+  static Dots = () => (
+    <SliderConsumer>
+      {({ nav, slideCount, currentIndex }) =>
+        nav.showDots ? (
+          <SliderFooter>
+            {range(slideCount).map(item => (
+              <Dot
+                key={item}
+                selected={item === currentIndex}
+                onClick={() => this.setState({ currentIndex: item })}
+              />
+            ))}
+          </SliderFooter>
+        ) : null
+      }
+    </SliderConsumer>
+  );
 
   componentDidMount = () => {
     const { initialIndex, slides } = this.props;
@@ -51,9 +91,9 @@ class Slider extends React.PureComponent {
       currentIndex: initialIndex
     });
 
-    // setInterval(() => {
-    //   nextSlide();
-    // }, 5000);
+    setInterval(() => {
+      this.nextSlide();
+    }, 3000);
   };
 
   componentWillReceiveProps = nextProps => {
@@ -68,28 +108,15 @@ class Slider extends React.PureComponent {
     const { currentIndex, slideCount } = this.state;
     const { initialIndex } = this.props;
     if (currentIndex === slideCount - 1) {
-      console.log(
-        'nextSlide cond 1 oldIndex',
-        currentIndex,
-        'Slide count',
-        slideCount - 1
-      );
       this.setState(prevState => ({
         ...prevState,
         currentIndex: initialIndex
       }));
     } else {
-      console.log('currentIndex + 1', currentIndex + 1);
       this.setState(prevState => ({
         ...prevState,
         currentIndex: this.state.currentIndex + 1
       }));
-      console.log(
-        'nextSlide cond 2 oldIndex',
-        currentIndex,
-        'currentIndex',
-        currentIndex + 1
-      );
     }
     return;
   };
@@ -114,39 +141,22 @@ class Slider extends React.PureComponent {
     const { slides, showArrows, showDots } = this.props;
     const { currentIndex, slideCount } = this.state;
 
-    return React.Children.map(this.props.children, childElement =>
-      React.cloneElement(childElement, {
-        currentIndex: this.state.currentIndex,
-        slideCount,
-        slides,
-        showArrows,
-        showDots,
-        onNext: this.nextSlide,
-        onPrev: this.prevSlide
-      })
-    );
-
     return (
-      <SliderWrapper height={height} width={width}>
-        <SliderContent isDots={showDots}>
-          {showArrows && <ArrowLeft onClick={this.prevSlide}>L</ArrowLeft>}
-          <ElementWrapper>
-            {slideCount !== 0 && children[currentIndex]}
-          </ElementWrapper>
-          {showArrows && <ArrowRight onClick={this.nextSlide}>R</ArrowRight>}
-        </SliderContent>
-        {showDots && (
-          <SliderFooter>
-            {range(slideCount).map(item => (
-              <Dot
-                key={item}
-                selected={item === currentIndex}
-                onClick={() => setCurrentIndex(item)}
-              />
-            ))}
-          </SliderFooter>
-        )}
-      </SliderWrapper>
+      <SliderContext.Provider
+        value={{
+          currentIndex: this.state.currentIndex,
+          slideCount,
+          slides,
+          nav: {
+            showDots,
+            showArrows,
+            onNext: this.nextSlide,
+            onPrev: this.prevSlide
+          }
+        }}
+      >
+        {this.props.children}
+      </SliderContext.Provider>
     );
   }
 }
