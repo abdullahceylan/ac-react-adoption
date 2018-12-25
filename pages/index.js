@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from '@theme';
+import theme, { ThemeProvider } from '@theme';
 import MainLayout from '../layouts';
 import Home from '@components/Home';
-import * as theme from '@theme';
 
 class App extends Component {
   static async getInitialProps({ query }) {

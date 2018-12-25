@@ -6,4 +6,18 @@ import { ThemeProvider } from 'styled-components';
 export { ThemeProvider };
 
 // Rest of the theme
-export const theme = {};
+const theme = {
+  grid: {
+    size: 12,
+    gutter: 10, // 10px
+    outerMargin: 1,
+    breakpoints: {
+      xs: 0, // px
+      sm: 1000, // px
+      md: 1200, // px
+      lg: 1200 // px
+    }
+  }
+};
+
+export default theme;

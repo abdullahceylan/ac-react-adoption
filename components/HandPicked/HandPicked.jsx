@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { take, map } from 'lodash/fp';
-import { HandPickedWrapper, HandPickedList, PetCard, PetImage, PetName } from './HandPicked.styles';
+import { Col } from '@styles';
+import { HandPickedWrapper, HandPickedList, PetCard, PetImage, PetName, PetInfo, PetMeta } from './HandPicked.styles';
 
 import handPickedList from './data.json';
 
@@ -12,10 +13,15 @@ const HandPicked = (props) => (
   <HandPickedWrapper>
     <HandPickedList>
       {map(pet => (
-        <PetCard key={pet.animal.id}>
-          <PetImage><img src={pet.animal.primary_photo_url} alt={pet.animal.name} /></PetImage>
-          <PetName>{pet.animal.name}</PetName>
-        </PetCard>
+        <Col xs={12} sm={6} md={4}><PetCard key={pet.animal.id} style={{ background: `url(${pet.animal.primary_photo_url}) 88% 1% / cover no-repeat`}}>
+          
+          <PetInfo>
+            <PetName>{pet.animal.name}</PetName>
+            <PetMeta>{pet.animal.type.name} - {pet.animal.sex}</PetMeta>
+            <PetMeta>{pet.animal.age} - {pet.animal.size}</PetMeta>
+            <PetMeta>{pet.animal.primary_color} - {pet.animal.coat_length}</PetMeta>
+          </PetInfo>
+        </PetCard></Col>
       ), list)}
     </HandPickedList>
   </HandPickedWrapper>
