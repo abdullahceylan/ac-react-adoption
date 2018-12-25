@@ -69,8 +69,8 @@ export const LeftFooter = styled.div`
 export const RightSide = styled.div`
   width: 50%;
   background-color: #fce2b8;
-  background-image: url(${dogRight});
+  /* background-image: url(${dogRight});
   background-size: contain;
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 `;
