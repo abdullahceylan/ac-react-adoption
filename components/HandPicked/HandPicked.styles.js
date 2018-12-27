@@ -42,7 +42,10 @@ export const PetCard = styled.div`
     cursor: pointer;
 
     ${PetInfo} {
+      height: 100%;
       transform: translateY(0);
+      opacity: 0.9;
+      bottom: 0;
     }
   }
 `;
