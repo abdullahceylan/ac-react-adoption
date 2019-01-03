@@ -101,7 +101,7 @@ export const SectionIcon = styled.div`
 
 export const Title = styled.h3`
   font-size: 27px;
-  height: 40px;
+  min-height: 40px;
   margin-bottom: 20px;
   border-bottom: 1px solid #8bc34a;
   display: block;

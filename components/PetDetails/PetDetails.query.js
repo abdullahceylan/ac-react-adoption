@@ -32,7 +32,7 @@ export const getPetQuery = gql`
 `;
 
 export const getPetQueryVariables = {
-  id: '43305020',
+  id: '0',
 };
 
 const getShelterQuery = gql`
