@@ -19,6 +19,12 @@ app
   .then(() => {
     const server = express();
 
+    server.get('/pet-details/:id', (req, res) => {
+      const page = '/petDetails';
+      const queryParams = { id: req.params.id };
+      app.render(req, res, page, queryParams);
+    });
+
     server.get('*', (req, res) => {
       return handle(req, res);
     });
