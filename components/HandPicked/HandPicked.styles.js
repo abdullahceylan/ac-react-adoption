@@ -2,7 +2,7 @@ import { styled } from '@styles';
 import { Grid, Row } from '@styles';
 
 export const HandPickedWrapper = styled(Grid)`
-  height: 450px;
+  height: 570px;
   overflow: hidden;
   overflow-y: scroll;
 `;
@@ -15,10 +15,10 @@ export const PetInfo = styled.div`
   align-items: center;
   justify-content: center;
   position: absolute;
-  transform: translateY(calc(56px + 1em));
+  transform: translateY(calc(42px + 1em));
   transition: transform 0.3s;
   background-color: #fff;
-  bottom: -3px;
+  bottom: 0;
   width: 100%;
   background-color: #f0f8ff;
   padding: 15px 0;
@@ -60,8 +60,12 @@ export const PetImage = styled.span`
 export const PetName = styled.span`
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 14px;
   color: #9c27b0;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 `;
 
 export const PetMeta = styled.span`

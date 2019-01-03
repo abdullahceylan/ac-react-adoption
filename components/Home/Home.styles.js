@@ -10,7 +10,7 @@ export const HomeWrapper = styled.div`
 
 export const LeftSide = styled.div`
   width: 50%;
-  background-color: #fff;
+  background-color: #f8f7f2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,7 +47,7 @@ export const ContentSlogan = styled.p``;
 
 export const LeftFooter = styled.div`
   height: 100px;
-  background-color: #f4f4f4;
+  background-color: #f8f1e7;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
