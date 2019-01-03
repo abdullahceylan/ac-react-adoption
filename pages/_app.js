@@ -1,8 +1,9 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
-
-export default class Adoption extends App {
+import { ApolloProvider } from 'react-apollo';
+import { withApolloClient } from '@api';
+class Adoption extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {};
 
@@ -14,14 +15,18 @@ export default class Adoption extends App {
   }
 
   render() {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, apolloClient } = this.props;
     return (
-      <Container>
-        <Head>
-          <title>AC Pet Adoption</title>
-        </Head>
-        <Component {...pageProps} />
-      </Container>
+      <ApolloProvider client={apolloClient}>
+        <Container>
+          <Head>
+            <title>AC Pet Adoption</title>
+          </Head>
+          <Component {...pageProps} />
+        </Container>
+      </ApolloProvider>
     );
   }
 }
+
+export default withApolloClient(Adoption);
