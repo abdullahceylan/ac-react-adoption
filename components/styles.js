@@ -2,11 +2,11 @@
 // So, with this, we don't need to change all of the components styles.
 // Just change 'styled-components' to '@emotion/styled'
 import styled, { css } from 'styled-components';
-import { ifProp } from 'styled-tools';
+import { ifProp, prop } from 'styled-tools';
 import resetCSS from 'styled-reset';
 import theme from '@theme';
 
-export { styled };
+export { styled, ifProp, prop, css };
 
 // Rest of styles
 export const globalStyles = `
@@ -26,6 +26,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-weight: 400;
+  background-color: #F8F7F2;
 }
 
 body > div {
@@ -81,6 +82,11 @@ export const media = {
       ${css(...args)};
     }
   `,
+  smLess: (...args) => css`
+    @media (max-width: ${theme.grid.breakpoints.sm}px) {
+      ${css(...args)};
+    }
+  `,
   mdLess: (...args) => css`
     @media (max-width: ${theme.grid.breakpoints.md}px) {
       ${css(...args)};
@@ -90,7 +96,7 @@ export const media = {
     @media (max-width: ${theme.grid.breakpoints.lg}px) {
       ${css(...args)};
     }
-  `
+  `,
 };
 
 export const LayoutContainer = styled.div`
@@ -107,9 +113,15 @@ export const Content = styled.div`
 `;
 
 export const Grid = styled.div`
-  width: 100%;
+  width: ${prop('width', '100%')};
   margin-left: -5px;
   margin-right: -5px;
+  ${ifProp(
+    'width',
+    css`
+      margin: 0 auto;
+    `,
+  )}
 `;
 
 export const Row = styled.div`
@@ -127,27 +139,27 @@ export const Col = styled.div`
     media.xs`
       width: ${({ gridSize, xs }) =>
         (100 / (gridSize || theme.grid.size)) * xs}%;
-    `
+    `,
   )}
   ${ifProp(
     'sm',
     media.sm`
       width: ${({ gridSize, sm }) =>
         (100 / (gridSize || theme.grid.size)) * sm}%;
-    `
+    `,
   )}
   ${ifProp(
     'md',
     media.md`
       width: ${({ gridSize, md }) =>
         (100 / (gridSize || theme.grid.size)) * md}%;
-    `
+    `,
   )}
   ${ifProp(
     'lg',
     media.lg`
     width: ${({ gridSize, lg }) => (100 / (gridSize || theme.grid.size)) * lg}%;
-  `
+  `,
   )}
   padding-left: 5px;
   padding-right: 5px;
