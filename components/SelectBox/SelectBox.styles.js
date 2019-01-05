@@ -24,7 +24,7 @@ export const Item = styled.div`
   height: auto;
   text-align: left;
   border-top: none;
-  line-height: 0.8em;
+  line-height: 1.4em;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.8rem;
   text-transform: none;

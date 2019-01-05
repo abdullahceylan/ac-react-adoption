@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import matchSorter from 'match-sorter';
 import Downshift from 'downshift';
 import {
@@ -98,12 +99,14 @@ const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
   );
 };
 
-const SelectBox = ({ items, width, height, placeholder, ...rest }) => {
+const SelectBox = ({ items, width, height, placeholder, onChangeCallback, ...rest }) => {
   console.log('items', items);
   // items = animals.map(s => ({ name: s, id: s.toLowerCase() }));
   if (!Array.isArray(items) || items.length <= 0) {
     return null;
   }
+
+  const finalItems = items.map(s => ({ ...s, id: s.id ? s.id.toLowerCase() : s.value.toLowerCase() }));
 
   const [isOpen, setToggle] = useState(false);
   const [itemsToShow, setItems] = useState([]);
@@ -111,13 +114,15 @@ const SelectBox = ({ items, width, height, placeholder, ...rest }) => {
   const handleStateChange = (changes, downshiftState) => {
     if (changes.hasOwnProperty('isOpen')) {
       // downshift is saying that isOpen should change, so let's change it...
+      const isStatesEqual = changes.type === Downshift.stateChangeTypes.mouseUp;
+
       setToggle(
-        changes.type === Downshift.stateChangeTypes.mouseUp
+        isStatesEqual
           ? isOpen
           : changes.isOpen,
       );
 
-      if (isOpen) {
+      if (!isStatesEqual && changes.isOpen) {
         // if the menu is going to be open, then we should limit the results
         // by what the user has typed in, otherwise, we'll leave them as they
         // were last...
@@ -133,19 +138,20 @@ const SelectBox = ({ items, width, height, placeholder, ...rest }) => {
 
   const handleChange = (selectedItem, downshiftState) => {
     // handle the new selectedItem here
+    return onChangeCallback(selectedItem, downshiftState)
   };
 
   const handleToggleButtonClick = () => {
     setTogle(!isOpen);
-    setItems(items);
+    setItems(finalItems);
   };
 
   const getItemsToShow = value => {
     return value
-      ? matchSorter(items, value, {
+      ? matchSorter(finalItems, value, {
           keys: ['label'],
         })
-      : items;
+      : finalItems;
   };
 
   const itemToString = i => (i ? i.label : '');
@@ -163,5 +169,22 @@ const SelectBox = ({ items, width, height, placeholder, ...rest }) => {
     />
   );
 };
+
+SelectBox.propTypes = {
+  items: PropTypes.oneOfType([
+    PropTypes.array
+  ]).isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  placeholder: PropTypes.string,
+  onChangeCallback: PropTypes.function,
+};
+
+SelectBox.defaultProps = {
+  width: 250,
+  height: 44,
+  placeholder: 'Please select',
+  onChangeCallback: () => {}
+}
 
 export default SelectBox;
