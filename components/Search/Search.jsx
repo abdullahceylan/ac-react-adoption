@@ -25,8 +25,12 @@ const Search = props => (
             <SearchImage />
           </SearchIcon>
           <SearchInput placeholder="Search a pet" autocomplete="off" />
-          <SelectBox placeholder="Animal type" width={150} height={70} items={SearchFilters.animals} />
-  
+          <SelectBox
+            placeholder="Animal type"
+            width={150}
+            height={70}
+            items={SearchFilters.animals}
+          />
         </SearchForm>
         <CloseIcon>
           <CloseImage />
