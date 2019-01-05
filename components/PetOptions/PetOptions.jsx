@@ -15,6 +15,7 @@ const PetOptions = ({ pet }) => {
   }
 
   const options = {
+    altered: find(b => b.option === 'altered', pet.options),
     houseTrained: find(b => b.option === 'housetrained', pet.options),
     hasShots: find(b => b.option === 'hasShots', pet.options),
   };
