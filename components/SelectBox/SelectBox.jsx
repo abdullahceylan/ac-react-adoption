@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import matchSorter from 'match-sorter';
 import Downshift from 'downshift';
 import {
@@ -98,81 +98,70 @@ const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
   );
 };
 
-class SelectBox extends React.Component {
+const SelectBox = ({ items, width, height, placeholder, ...rest }) => {
+  console.log('items', items);
   // items = animals.map(s => ({ name: s, id: s.toLowerCase() }));
-  items = Array.isArray(this.props.items) ? this.props.items : [];
-  state = { isOpen: false, itemsToShow: [] };
+  if (!Array.isArray(items) || items.length <= 0) {
+    return null;
+  }
 
-  handleStateChange = (changes, downshiftState) => {
+  const [isOpen, setToggle] = useState(false);
+  const [itemsToShow, setItems] = useState([]);
+
+  const handleStateChange = (changes, downshiftState) => {
     if (changes.hasOwnProperty('isOpen')) {
       // downshift is saying that isOpen should change, so let's change it...
-      this.setState(({ isOpen, itemsToShow }) => {
-        // if it's changing because the user's clicking outside of the downshift
-        // component, then we actually don't want to change the isOpen state
-        isOpen =
-          changes.type === Downshift.stateChangeTypes.mouseUp
-            ? isOpen
-            : changes.isOpen;
-        if (isOpen) {
-          // if the menu is going to be open, then we should limit the results
-          // by what the user has typed in, otherwise, we'll leave them as they
-          // were last...
-          itemsToShow = this.getItemsToShow(downshiftState.inputValue);
-        }
-        return { isOpen, itemsToShow };
-      });
+      setToggle(
+        changes.type === Downshift.stateChangeTypes.mouseUp
+          ? isOpen
+          : changes.isOpen,
+      );
+
+      if (isOpen) {
+        // if the menu is going to be open, then we should limit the results
+        // by what the user has typed in, otherwise, we'll leave them as they
+        // were last...
+        setItems(getItemsToShow(downshiftState.inputValue));
+      }
     } else if (changes.hasOwnProperty('inputValue')) {
       // downshift is saying that the inputValue is changing. Since we don't
       // control that, we'll just use that information to update the items
       // that we should show.
-      this.setState({
-        itemsToShow: this.getItemsToShow(downshiftState.inputValue),
-      });
+      setItems(getItemsToShow(downshiftState.inputValue));
     }
   };
 
-  handleChange = (selectedItem, downshiftState) => {
+  const handleChange = (selectedItem, downshiftState) => {
     // handle the new selectedItem here
   };
 
-  handleToggleButtonClick = () => {
-    this.setState(({ isOpen }) => ({
-      isOpen: !isOpen,
-      itemsToShow: this.items,
-    }));
+  const handleToggleButtonClick = () => {
+    setTogle(!isOpen);
+    setItems(items);
   };
 
-  getItemsToShow(value) {
+  const getItemsToShow = value => {
     return value
-      ? matchSorter(this.items, value, {
-          keys: ['name'],
+      ? matchSorter(items, value, {
+          keys: ['label'],
         })
-      : this.items;
-  }
+      : items;
+  };
 
-  itemToString(i) {
-    return i ? i.name : '';
-  }
-  
-  render() {
-    if (this.items.length <= 0) {
-      return null;
-    }
-    const { width, height, placeholder, ...rest } = this.props;
-    const { isOpen, itemsToShow } = this.state;
-    return (
-      <SelectInput
-        onStateChange={this.handleStateChange}
-        isOpen={isOpen}
-        onChange={this.handleChange}
-        items={itemsToShow}
-        itemToString={this.itemToString}
-        width={width}
-        height={height}
-        placeholder={placeholder}
-      />
-    );
-  }
-}
+  const itemToString = i => (i ? i.label : '');
+
+  return (
+    <SelectInput
+      onStateChange={handleStateChange}
+      isOpen={isOpen}
+      onChange={handleChange}
+      items={itemsToShow}
+      itemToString={itemToString}
+      width={width}
+      height={height}
+      placeholder={placeholder}
+    />
+  );
+};
 
 export default SelectBox;
