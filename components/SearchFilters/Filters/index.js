@@ -9,7 +9,7 @@ import smallFurryFilters from './small-furry-filters';
 import animalFilters from './animal-filters';
 import commonFilters from './common-filters';
 
-const SearchFilters = {
+const Filters = {
   animals: animalFilters,
   cat: {
     ...commonFilters,
@@ -37,4 +37,4 @@ const SearchFilters = {
   },
 };
 
-export default SearchFilters;
+export default Filters;
