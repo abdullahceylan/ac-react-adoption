@@ -1,6 +1,6 @@
 const iconBase = '/static/images/icons';
 
-const filters = {
+const SearchFilters = {
   animals: [
     {
       id: 'Cat',
@@ -40,3 +40,5 @@ const filters = {
     },
   ],
 };
+
+export default SearchFilters;
