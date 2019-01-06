@@ -11,21 +11,22 @@ const SearchFilters = ({ currentAnimal, onChange }) => {
   }
 
   const currentFilters = Filters[currentAnimal.id];
-  console.log('currentFilters', currentFilters);
+  // console.log('currentFilters', currentFilters);
   return (
     <SearchFiltersWrapper>
       {map(
-        filter => (
-          <SingleFilter xs={3} sm={2} md={3} key={filter.name}>
-            <SelectBox
-              placeholder={filter.label}
-              width={170}
-              height={70}
-              items={filter.options}
-              // onChangeCallback={onChange}
-            />
-          </SingleFilter>
-        ),
+        filter =>
+          filter.display && (
+            <SingleFilter xs={3} sm={3} md={3} key={filter.name}>
+              <SelectBox
+                placeholder={filter.label}
+                width={170}
+                height={70}
+                items={filter.options}
+                // onChangeCallback={onChange}
+              />
+            </SingleFilter>
+          ),
         currentFilters,
       )}
     </SearchFiltersWrapper>
