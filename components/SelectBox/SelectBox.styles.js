@@ -1,9 +1,7 @@
 import { styled, ifProp, prop, css } from '@styles';
 
-export const SelectBoxContainer = styled.div`
-  width: ${prop('width', 250)}px;
-  height: ${prop('height', 32)}px;
-`;
+const DEFAULT_WIDTH = 250;
+const DEFAULT_HEIGHT = 32;
 
 export const InputWrapper = styled.div`
   position: relative;
@@ -61,14 +59,17 @@ export const SelectedItemIcon = styled.img`
 `;
 
 export const Input = styled.input`
-  width: ${prop('width', 200)}px; /* full width - icon width/2 - border*/
+  width: ${prop(
+    'width',
+    DEFAULT_WIDTH,
+  )}px; /* full width - icon width/2 - border*/
+  height: ${prop('height', DEFAULT_HEIGHT)}px;
+  min-height: 2em;
   font-size: 14px;
   word-wrap: break-word;
   line-height: 1em;
   outline: 0;
   white-space: normal;
-  min-height: 2em;
-  height: ${prop('height', 32)}px;
   background: #fff;
   padding: 0.5em 2em 0.5em 1em;
   color: rgba(0, 0, 0, 0.87);
@@ -102,19 +103,30 @@ export const Input = styled.input`
 `;
 
 export const Menu = styled.div`
+  position: absolute;
+  width: ${prop('width', DEFAULT_WIDTH)}px;
   max-height: 20rem;
   overflow-y: auto;
   overflow-x: hidden;
-  border-top-width: 0;
   outline: 0;
   border-radius: 0 0 0.28571429rem 0.28571429rem;
   transition: opacity 0.1s ease;
   box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
-  border-color: #96c8da;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-style: solid;
+  border-color: #f9fafb;
+  border: 1px solid #f9fafb;
+  border-top-width: 0;
+  background-color: #f9fafb;
+  z-index: 2;
+`;
+
+export const SelectBoxContainer = styled.div`
+  width: ${prop('width', DEFAULT_WIDTH)}px;
+  height: ${prop('height', DEFAULT_HEIGHT)}px;
+  position: relative;
+
+  ${Menu} {
+    top: ${prop('height', DEFAULT_HEIGHT)}px;
+  }
 `;
 
 export const ControllerButton = styled.button`

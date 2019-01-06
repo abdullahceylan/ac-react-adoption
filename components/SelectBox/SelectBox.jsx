@@ -100,7 +100,7 @@ const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
 };
 
 const SelectBox = ({ items, width, height, placeholder, onChangeCallback, ...rest }) => {
-  console.log('items', items);
+  // console.log('items', items);
   // items = animals.map(s => ({ name: s, id: s.toLowerCase() }));
   if (!Array.isArray(items) || items.length <= 0) {
     return null;
