@@ -24,7 +24,7 @@ import {
 import NoPetImage from '@static/images/icons/004-pawprint.svg';
 
 const PetDetails = ({ getPetQuery, getShelterQuery, ...rest }) => {
-  console.log('rest', rest);
+  // console.log('rest', rest);
   if (getPetQuery.loading) {
     return <div>Loading</div>;
   }

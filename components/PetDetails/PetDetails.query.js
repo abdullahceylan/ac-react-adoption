@@ -59,7 +59,7 @@ export const PetDetailsQuery = compose(
   graphql(getPetQuery, {
     name: 'getPetQuery',
     options: props => {
-      console.log('propsss', props);
+      // console.log('propsss', props);
       return {
         variables: {
           ...getPetQueryVariables,
@@ -71,7 +71,7 @@ export const PetDetailsQuery = compose(
   graphql(getShelterQuery, {
     name: 'getShelterQuery',
     options: ({ getPetQuery }) => {
-      console.log('getPetQuery', getPetQuery);
+      // console.log('getPetQuery', getPetQuery);
       return {
         variables: {
           shelterId:
