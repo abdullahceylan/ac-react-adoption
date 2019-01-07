@@ -1,8 +1,11 @@
-import { styled } from '@styles';
+import { styled, Grid, Row } from '@styles';
 
-export const SearchResultsWrapper = styled.div`
-  width: 100vw;
+export const SearchResultsWrapper = styled(Grid)`
   height: calc(100vh - 60px);
   overflow: auto;
   padding-top: 2rem;
+`;
+
+export const SearchList = styled(Row)`
+  margin: 0 5px;
 `;
