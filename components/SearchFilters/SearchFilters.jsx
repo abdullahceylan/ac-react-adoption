@@ -16,14 +16,15 @@ const SearchFilters = ({ currentAnimal, onChange }) => {
     <SearchFiltersWrapper>
       {map(
         filter =>
-          filter.display && (
+          filter.display && filter.component !== 'searchbar' && (
             <SingleFilter xs={3} sm={3} md={3} key={filter.name}>
               <SelectBox
                 placeholder={filter.label}
                 width={170}
                 height={70}
                 items={filter.options}
-                // onChangeCallback={onChange}
+                onChangeCallback={onChange}
+                returnThis={{ type: filter.name }}
               />
             </SingleFilter>
           ),
@@ -34,11 +35,14 @@ const SearchFilters = ({ currentAnimal, onChange }) => {
 };
 
 SearchFilters.propTypes = {
-  // bla: PropTypes.string,
+  currentAnimal: PropTypes.oneOfType([
+    PropTypes.object,
+  ]).isRequired,
+  onChange: PropTypes.func,
 };
 
 SearchFilters.defaultProps = {
-  // bla: 'test',
+  onChange: () => {}
 };
 
 export default SearchFilters;

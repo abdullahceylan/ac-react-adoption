@@ -3,46 +3,48 @@ const commonFilters = {
     name: 'size',
     label: 'Size',
     display: true,
+    component: 'filter',
     options: [
       {
-        value: 'Small',
+        value: 'S',
         label: 'Small',
         long_label: 'Small',
         default: false,
       },
       {
-        value: 'Medium',
+        value: 'M',
         label: 'Medium',
         long_label: 'Medium',
         default: false,
       },
       {
-        value: 'Large',
+        value: 'L',
         label: 'Large',
         long_label: 'Large',
         default: false,
       },
       {
-        value: 'Extra Large',
-        label: 'XL',
-        long_label: 'XL',
+        value: 'XL',
+        label: 'Extra Large',
+        long_label: 'Extra Large',
         default: false,
       },
     ],
   },
   gender: {
-    name: 'gender',
-    label: 'Genders',
+    name: 'sex',
+    label: 'Gender',
     display: true,
+    component: 'filter',
     options: [
       {
-        value: 'Male',
+        value: 'M',
         label: 'Male',
         long_label: 'Male',
         default: false,
       },
       {
-        value: 'Female',
+        value: 'F',
         label: 'Female',
         long_label: 'Female',
         default: false,
@@ -52,7 +54,8 @@ const commonFilters = {
   distance: {
     name: 'distance',
     label: 'Distance',
-    display: true,
+    display: false,
+    component: 'searchbar',
     options: [
       {
         value: '10',
@@ -90,6 +93,7 @@ const commonFilters = {
     name: 'sort',
     label: 'Sort By',
     display: true,
+    component: 'searchbar',
     options: [
       {
         value: 'recently_added',

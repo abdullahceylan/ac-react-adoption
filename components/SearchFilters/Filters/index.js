@@ -35,6 +35,7 @@ const Filters = {
     ...commonFilters,
     ...barnyardFilters,
   },
+  common: commonFilters,
 };
 
 export default Filters;
