@@ -54,7 +54,7 @@ export const useGeoLocation = () => {
 
 export const useAddress = () => {
   const [currentAddress, setAddress] = useState({
-    result: null,
+    result: '',
     error: false,
   });
 
@@ -62,7 +62,7 @@ export const useAddress = () => {
 };
 
 export const coor2address = (lat, long, cb = () => {}) => {
-  const output = (result = null, error = false) => ({
+  const output = (result = '', error = false) => ({
     result,
     error,
   });
@@ -77,9 +77,10 @@ export const coor2address = (lat, long, cb = () => {}) => {
         latLng: latLng,
       },
       (result, message) => {
+        console.log('result', result);
         message === google.maps.GeocoderStatus.OK
-          ? result[3]
-            ? cb(output(result[3].formatted_address))
+          ? result[7]
+            ? cb(output(result[7].formatted_address))
             : cb(output(null, 'No results found'))
           : cb(output(null, `Geocoder failed due to: ${message}`));
       },
