@@ -1,4 +1,4 @@
-import { styled } from '@styles';
+import { styled, prop, valueSelector } from '@styles';
 
 export const SearchWrapper = styled.div`
   display: flex;
@@ -20,7 +20,6 @@ export const SearchWrapper = styled.div`
 
 export const SearchHeader = styled.div`
   width: 100%;
-  background: #fff;
   box-shadow: 0 5px 50px rgba(0, 0, 0, 0.025);
 `;
 
@@ -30,7 +29,7 @@ export const FormWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 10px;
 `;
 
@@ -38,27 +37,27 @@ export const SearchForm = styled.div`
   width: calc(100% - 2rem);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 `;
 
 export const SearchInput = styled.input`
-  font-size: 1.75rem;
-  font-weight: 300;
-  height: 78px;
-  padding: 0 1rem 0 1.5rem;
-
-  width: 100%;
   display: block;
+  width: ${prop('width', '100%')};
+  height: 70px;
+  font-size: 1.05rem;
+  font-weight: 300;
+  padding: 0 1rem 0 1.5rem;
   appearance: none;
-  border: 0;
   outline: 0;
   box-shadow: none;
-  background: transparent;
   margin: 0;
   color: #6c7987;
   border-radius: 3px;
   transition: box-shadow 0.2s ease;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.3rem;
+  margin: 0 10px;
 `;
 
 export const SearchIcon = styled.span`
