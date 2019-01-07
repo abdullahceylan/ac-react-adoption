@@ -15,7 +15,7 @@ import {
   XIcon,
 } from './SelectBox.styles';
 
-const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
+const SelectInput = ({ itemToString, items, width, height, margin, ...rest }) => {
   return (
     <Downshift itemToString={itemToString} {...rest}>
       {({
@@ -33,6 +33,7 @@ const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
         <SelectBoxContainer
           width={width}
           height={height}
+          margin={margin}
           {...getRootProps({
             refKey: 'forwardRef',
           })}
@@ -99,7 +100,7 @@ const SelectInput = ({ itemToString, items, width, height, ...rest }) => {
   );
 };
 
-const SelectBox = ({ items, width, height, placeholder, onChangeCallback, ...rest }) => {
+const SelectBox = ({ items, width, height, placeholder, onChangeCallback, returnThis, ...rest }) => {
   // console.log('items', items);
   // items = animals.map(s => ({ name: s, id: s.toLowerCase() }));
   if (!Array.isArray(items) || items.length <= 0) {
@@ -138,7 +139,7 @@ const SelectBox = ({ items, width, height, placeholder, onChangeCallback, ...res
 
   const handleChange = (selectedItem, downshiftState) => {
     // handle the new selectedItem here
-    return onChangeCallback(selectedItem, downshiftState)
+    return onChangeCallback(selectedItem, downshiftState, returnThis);
   };
 
   const handleToggleButtonClick = () => {
@@ -166,6 +167,7 @@ const SelectBox = ({ items, width, height, placeholder, onChangeCallback, ...res
       width={width}
       height={height}
       placeholder={placeholder}
+      {...rest}
     />
   );
 };
@@ -177,14 +179,16 @@ SelectBox.propTypes = {
   width: PropTypes.number,
   height: PropTypes.number,
   placeholder: PropTypes.string,
-  onChangeCallback: PropTypes.function,
+  onChangeCallback: PropTypes.func,
+  returnThis: PropTypes.any,
 };
 
 SelectBox.defaultProps = {
   width: 250,
   height: 44,
   placeholder: 'Please select',
-  onChangeCallback: () => {}
+  onChangeCallback: () => { },
+  returnThis: null,
 }
 
 export default SelectBox;

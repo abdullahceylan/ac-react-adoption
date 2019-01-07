@@ -69,7 +69,6 @@ export const Input = styled.input`
   word-wrap: break-word;
   line-height: 1em;
   outline: 0;
-  white-space: normal;
   background: #fff;
   padding: 0.5em 2em 0.5em 1em;
   color: rgba(0, 0, 0, 0.87);
@@ -123,6 +122,12 @@ export const SelectBoxContainer = styled.div`
   width: ${prop('width', DEFAULT_WIDTH)}px;
   height: ${prop('height', DEFAULT_HEIGHT)}px;
   position: relative;
+  ${ifProp(
+    'margin',
+    css`
+      margin: ${prop('margin', 0)};
+    `,
+  )}
 
   ${Menu} {
     top: ${prop('height', DEFAULT_HEIGHT)}px;
