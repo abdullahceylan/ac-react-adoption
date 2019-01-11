@@ -14,19 +14,8 @@ export const LeftSide = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 100px;
 `;
-
-export const LeftHeader = styled.div`
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-`;
-
-export const Title = styled.div``;
-
-export const SearchWrapper = styled.div``;
 
 export const LeftContent = styled.div`
   height: 100%;
