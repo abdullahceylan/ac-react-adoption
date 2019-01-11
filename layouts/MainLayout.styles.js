@@ -11,7 +11,16 @@ export const Header = styled.div`
   z-index: 3;
 `;
 
-export const Title = styled.div``;
+export const Title = styled.span`
+  font-weight: 700;
+  cursor: pointer;
+`;
+
+export const LogoWrapper = styled.span`
+  width: 230px;
+  height: 60px;
+  cursor: pointer;
+`;
 
 export const SearchIcon = styled.img`
   &:hover {
