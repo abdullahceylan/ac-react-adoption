@@ -17,10 +17,10 @@ const SearchFilters = ({ currentAnimal, onChange }) => {
       {map(
         filter =>
           filter.display && filter.component !== 'searchbar' && (
-            <SingleFilter xs={3} sm={3} md={3} key={filter.name}>
+            <SingleFilter xs={6} sm={3} md={3} lg={2} key={filter.name}>
               <SelectBox
                 placeholder={filter.label}
-                width={170}
+                width={200}
                 height={70}
                 items={filter.options}
                 onChangeCallback={onChange}

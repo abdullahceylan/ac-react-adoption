@@ -32,6 +32,7 @@ export const NoPetText = styled.div`
 
 export const PetDetailsWrapper = styled(Grid)`
   height: 100%;
+  margin-top: 100px;
 `;
 export const ContentWrapper = styled(Row)`
   height: 'auto';

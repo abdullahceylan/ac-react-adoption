@@ -1,7 +1,7 @@
 // May be we can use emotion later.
 // So, with this, we don't need to change all of the components styles.
 // Just change 'styled-components' to '@emotion/styled'
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import { ifProp, prop } from 'styled-tools';
 import resetCSS from 'styled-reset';
 import theme from '@theme';
@@ -99,11 +99,29 @@ export const media = {
   `,
 };
 
+export const FadeIn = keyframes`
+ 0% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+`;
+
+export const FadeOut = keyframes`
+0% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
+`;
+
 export const LayoutContainer = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 `;
 
 export const Content = styled.div`

@@ -2,6 +2,12 @@ const iconBase = '/static/images/icons';
 
 const animalFilters = [
   {
+    id: 'all-animals',
+    label: 'All animals',
+    // iconURL: `${iconBase}/005-cat-1.svg`,
+    // iconURLSelected: `${iconBase}/005-cat-2.svg`,
+  },
+  {
     id: 'cat',
     label: 'Cat',
     iconURL: `${iconBase}/005-cat-1.svg`,

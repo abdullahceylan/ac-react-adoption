@@ -19,7 +19,7 @@ export const PetCardContainer = styled.div`
   position: relative;
   height: 310px;
   padding: 0;
-  border-radius: 2px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   word-wrap: break-word;
