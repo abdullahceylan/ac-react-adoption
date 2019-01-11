@@ -38,7 +38,7 @@ export const getPetQueryVariables = {
 const getShelterQuery = gql`
   query shelter($shelterId: String!) {
     shelter(shelterId: $shelterId) {
-      # id
+      id
       name
       phone
       email
@@ -55,7 +55,7 @@ const getShelterQuery = gql`
   }
 `;
 
-export const PetDetailsQuery = compose(
+const PetDetailsQuery = compose(
   graphql(getPetQuery, {
     name: 'getPetQuery',
     options: props => {
@@ -81,3 +81,5 @@ export const PetDetailsQuery = compose(
     },
   }),
 );
+
+export default PetDetailsQuery;

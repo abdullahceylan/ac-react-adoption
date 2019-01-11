@@ -13,7 +13,8 @@
             "@components": "./components",
             "@styles": "./components/styles",
             "@theme": "./components/theme",
-            "@static": "./static"
+            "@static": "./static",
+            "@queries": "./queries"
           }
         }]
       ]
@@ -27,6 +28,7 @@
           "root": ["./"],
           "alias": {
             "@helpers": "./helpers",
+            "@queries": "./queries",
             "@api": "./api",
             "@components": "./components",
             "@styles": "./components/styles",
