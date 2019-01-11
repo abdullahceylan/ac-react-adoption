@@ -56,7 +56,6 @@ const Search = ({ isSearchActive, onClickHandler }) => {
   // }
 
   const onChangeSelectBox = (selectedItem, downshiftState, returnThis) => {
-    console.log('returnThis', returnThis);
     if (returnThis) {
       if (returnThis.type === 'animal') {
         setAnimal(selectedItem);
@@ -69,9 +68,7 @@ const Search = ({ isSearchActive, onClickHandler }) => {
             : selectedItem.id,
         });
     }
-    console.log('selectedItem', selectedItem);
   };
-  // console.log('currentAnimal', currentAnimal);
   return (
     <SearchWrapper isSearchActive={isSearchActive}>
       <SearchHeader>
@@ -100,7 +97,6 @@ const Search = ({ isSearchActive, onClickHandler }) => {
               placeholder="Location"
               autocomplete="off"
               width="300px"
-              // defaultValue={currentAddress.result}
               value={userFilters.location}
               onChange={onChangeLocation}
             />
@@ -126,9 +122,7 @@ const Search = ({ isSearchActive, onClickHandler }) => {
       {userFilters.animal && <SearchResults userFilters={userFilters} />}
       {!userFilters.animal && (
         <SearchInfoText>
-          Find anything about our product, search our documentation, and more.
-          Enter a query in the search input above, and results will be displayed
-          as you type.
+          Enter a location in the search input above, and results will be displayed as you type. You can customize the search results, size, age, breed etc. after select an animal type.
         </SearchInfoText>
       )}
     </SearchWrapper>

@@ -24,12 +24,12 @@ const PetMediaSlider = ({ media }) => {
       width="100%"
       height="300px"
       slides={slideList}
-      showArrows={false}
+      showArrows={true}
       autoPlay={slideList.length > 1}
       duration={5}
       showDots={false}
       elementWrapperStyles={{
-        borderRadius: '50%',
+        borderRadius: '5px',
         overflow: 'hidden',
       }}
       itemStyles={{

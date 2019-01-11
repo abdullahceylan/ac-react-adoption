@@ -4,47 +4,28 @@ import { map } from 'lodash/fp';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import PetCard from '@components/PetCard';
+import { petFindQuery } from '@queries';
 import { HandPickedWrapper, HandPickedList } from './HandPicked.styles';
 import { Col } from '@styles';
 // import handPickedList from './data.json';
 
-export const handPickedListQuery = gql`
-  query shelterGetPets($shelterId: String!, $count: Int, $status: String) {
-    shelterGetPets(shelterId: $shelterId, count: $count, status: $status) {
-      lastOffset
-      pets {
-        id
-        name
-        breeds {
-          breed
-        }
-        media {
-          photos {
-            size
-            url
-          }
-        }
-        animal
-        age
-        size
-        sex
-      }
-    }
-  }
-`;
-export const handPickedListQueryVars = {
-  shelterId: 'TN221',
+
+export const petFindQueryVariables = {
+  location: 'Canada',
   count: 6,
-  status: 'A',
 };
 
 const HandPicked = props => (
-    <Query query={handPickedListQuery} variables={handPickedListQueryVars}>
-      {({ loading, error, data: { shelterGetPets }, fetchMore }) => {
+    <Query query={petFindQuery} variables={petFindQueryVariables}>
+      {({ loading, error, data, fetchMore }) => {
         if (error) return <div>Error loading pets.</div>;
         if (loading) return <div>Loading</div>;
+        
+        if (!data.petFind) {
+          return null;
+        }
 
-        console.log('handPicked', shelterGetPets);
+        // console.log('handPicked', petFind);
 
         // const areMorePosts = handPicked.length
         return (
@@ -52,11 +33,11 @@ const HandPicked = props => (
             <HandPickedList>
               {map(
                 pet => (
-                  <Col key={pet.id} xs={12} sm={6} md={6}>
+                  <Col key={pet.id} xs={12} sm={6} md={4}>
                     <PetCard pet={pet} />
                   </Col>
                 ),
-                shelterGetPets.pets,
+                data.petFind.pets,
               )}
             </HandPickedList>
           </HandPickedWrapper>
@@ -65,10 +46,10 @@ const HandPicked = props => (
     </Query>
 );
 
-function loadMorePosts(shelterGetPets, fetchMore) {
+function loadMorePosts(petFind, fetchMore) {
   fetchMore({
     variables: {
-      skip: shelterGetPets.length,
+      skip: petFind.length,
     },
     updateQuery: (previousResult, { fetchMoreResult }) => {
       if (!fetchMoreResult) {
@@ -77,8 +58,8 @@ function loadMorePosts(shelterGetPets, fetchMore) {
       return Object.assign({}, previousResult, {
         // Append the new posts results to the old one
         shelterGetPets: [
-          ...previousResult.shelterGetPets,
-          ...fetchMoreResult.shelterGetPets,
+          ...previousResult.petFind,
+          ...fetchMoreResult.petFind,
         ],
       });
     },

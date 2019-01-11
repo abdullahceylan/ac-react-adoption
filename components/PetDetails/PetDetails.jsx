@@ -7,7 +7,8 @@ import PetMediaSlider from '@components/PetMediaSlider';
 import PetBio from '@components/PetBio';
 import PetOptions from '@components/PetOptions';
 import ShelterInfoBar from '@components/ShelterInfoBar';
-import { PetDetailsQuery } from './PetDetails.query';
+import { petDetailsQuery } from '@queries';
+import { NoRecordAvailable, NoRecordText, ContentSidebar, SidebarSection } from '@styles';
 import {
   PetDetailsWrapper,
   ContentWrapper,
@@ -15,13 +16,9 @@ import {
   ContentSection,
   Title,
   Details,
-  PetInfoBar,
-  SidebarSection,
-  NoPetAvailable,
-  NoPetText
 } from './PetDetails.styles';
 
-import NoPetImage from '@static/images/icons/004-pawprint.svg';
+import NoRecordImage from '@static/images/icons/004-pawprint.svg';
 
 const PetDetails = ({ getPetQuery, getShelterQuery, ...rest }) => {
   // console.log('rest', rest);
@@ -33,15 +30,17 @@ const PetDetails = ({ getPetQuery, getShelterQuery, ...rest }) => {
 
   if (!isPetAvailable) {
     return (
-      <NoPetAvailable>
-          <NoPetText>
-            <NoPetImage />
-            <p>No pet details available!</p>
-            <Link>
-              <a href="/" title='Homepage'>Home</a>
-            </Link>
-          </NoPetText>
-      </NoPetAvailable>
+      <NoRecordAvailable>
+        <NoRecordText>
+          <NoRecordImage />
+          <p>No pet details available!</p>
+          <Link>
+            <a href="/" title="Homepage">
+              Home
+            </a>
+          </Link>
+        </NoRecordText>
+      </NoRecordAvailable>
     );
   }
 
@@ -61,7 +60,7 @@ const PetDetails = ({ getPetQuery, getShelterQuery, ...rest }) => {
             <PetOptions pet={pet} />
           </ContentSection>
         </MainContent>
-        <PetInfoBar xs={12} sm={4} md={4}>
+        <ContentSidebar xs={12} sm={4} md={4}>
           <SidebarSection>
             <PetMediaSlider media={pet.media} />
             <PetBio
@@ -70,9 +69,9 @@ const PetDetails = ({ getPetQuery, getShelterQuery, ...rest }) => {
             />
           </SidebarSection>
           <SidebarSection withIcon>
-            <ShelterInfoBar shelter={shelter} />
+            <ShelterInfoBar shelter={shelter} withIcon withTitle withButton />
           </SidebarSection>
-        </PetInfoBar>
+        </ContentSidebar>
       </ContentWrapper>
     </PetDetailsWrapper>
   );
@@ -86,4 +85,4 @@ PetDetails.defaultProps = {
   // bla: 'test',
 };
 
-export default PetDetailsQuery(PetDetails);
+export default petDetailsQuery(PetDetails);

@@ -27,6 +27,8 @@ body {
   overflow-x: hidden;
   font-weight: 400;
   background-color: #F8F7F2;
+  background-image: url(/static/images/bg.png);
+  background-blend-mode: screen;
 }
 
 body > div {
@@ -117,6 +119,13 @@ export const FadeOut = keyframes`
 }
 `;
 
+export const GeneralContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: ${prop('width', 300)}px;
+  margin-bottom: 20px;
+`;
+
 export const LayoutContainer = styled.div`
   width: 100%;
   height: 100%;
@@ -183,4 +192,95 @@ export const Col = styled.div`
   padding-right: 5px;
   display: inline-block;
   vertical-align: top;
+`;
+
+export const NoRecordAvailable = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const NoRecordText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > svg {
+    height: 200px;
+
+    ${media.smLess`
+      height: 150px;
+   `}
+  }
+
+  & > p {
+    font-size: 52px;
+
+    ${media.smLess`
+      font-size: 32px;
+   `}
+  }
+`;
+
+export const ContentSidebar = styled(Col)`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SidebarSection = styled.div`
+  overflow: visible;
+  padding: 19px 30px;
+  margin-bottom: 82px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px rgba(77, 71, 81, 0.2);
+  background-color: #fff;
+
+  ${ifProp(
+    { withIcon: true },
+    css`
+      padding-top: 85px;
+    `,
+  )}
+`;
+
+export const SidebarSectionIcon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 115px;
+  height: 115px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -56px;
+  left: calc(50% - 58.5px);
+  background-color: #a3d256;
+
+  & > svg {
+    width: 60px;
+    fill: #fff;
+  }
+`;
+
+export const Button = styled.span`
+  width: ${prop('width', '100%')};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #4d4751;
+  background-color: #4d4751;
+  color: #fff;
+  height: 50px;
+  border-radius: 27px;
+  margin: 17px 0 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #868686;
+  }
 `;

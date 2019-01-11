@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { map } from 'lodash/fp';
 import { Query } from 'react-apollo';
 import PetCard from '@components/PetCard';
-import * as Queries from './Queries';
+import { petFindQuery } from '@queries';
 import { Col } from '@styles';
 import { SearchResultsWrapper, SearchList, GeneralWrapper, InformText, LoadingImage } from './SearchResults.styles';
 
@@ -30,7 +30,7 @@ const SearchResults = ({ userFilters }) => {
   console.log('petFindQueryVariables', petFindQueryVariables);
 
   return (
-    <Query query={Queries.petFindQuery} variables={petFindQueryVariables}>
+    <Query query={petFindQuery} variables={petFindQueryVariables}>
       {({ loading, error, data, fetchMore, refetch }) => {
         // console.log('data', data);
         // console.log('error', error);
