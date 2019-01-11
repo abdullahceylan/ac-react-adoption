@@ -39,30 +39,30 @@ export const handPickedListQueryVars = {
 };
 
 const HandPicked = props => (
-  <Query query={handPickedListQuery} variables={handPickedListQueryVars}>
-    {({ loading, error, data: { shelterGetPets }, fetchMore }) => {
-      if (error) return <div>Error loading pets.</div>;
-      if (loading) return <div>Loading</div>;
+    <Query query={handPickedListQuery} variables={handPickedListQueryVars}>
+      {({ loading, error, data: { shelterGetPets }, fetchMore }) => {
+        if (error) return <div>Error loading pets.</div>;
+        if (loading) return <div>Loading</div>;
 
-      console.log('handPicked', shelterGetPets);
+        console.log('handPicked', shelterGetPets);
 
-      // const areMorePosts = handPicked.length
-      return (
-        <HandPickedWrapper>
-          <HandPickedList>
-            {map(
-              pet => (
-                <Col key={pet.id} xs={12} sm={6} md={4}>
-                  <PetCard pet={pet} />
-                </Col>
-              ),
-              shelterGetPets.pets,
-            )}
-          </HandPickedList>
-        </HandPickedWrapper>
-      );
-    }}
-  </Query>
+        // const areMorePosts = handPicked.length
+        return (
+          <HandPickedWrapper>
+            <HandPickedList>
+              {map(
+                pet => (
+                  <Col key={pet.id} xs={12} sm={6} md={6}>
+                    <PetCard pet={pet} />
+                  </Col>
+                ),
+                shelterGetPets.pets,
+              )}
+            </HandPickedList>
+          </HandPickedWrapper>
+        );
+      }}
+    </Query>
 );
 
 function loadMorePosts(shelterGetPets, fetchMore) {
@@ -93,4 +93,4 @@ HandPicked.defaultProps = {
   // bla: 'test',
 };
 
-export default HandPicked;
+export default React.memo(HandPicked);

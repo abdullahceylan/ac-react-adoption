@@ -13,11 +13,11 @@ const theme = {
     outerMargin: 1,
     breakpoints: {
       xs: 0, // px
-      sm: 1000, // px
-      md: 1200, // px
-      lg: 1200 // px
-    }
-  }
+      sm: 768, // px
+      md: 960, // px
+      lg: 1200, // px
+    },
+  },
 };
 
 export default theme;
