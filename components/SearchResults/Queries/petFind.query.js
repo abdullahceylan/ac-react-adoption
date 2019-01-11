@@ -24,20 +24,7 @@ const petFindQuery = gql`
       lastOffset
       pets {
         name
-        options {
-          option
-        }
         status
-        contact {
-          phone
-          email
-          city
-          state
-          zip
-          address1
-          address2
-          fax
-        }
         age
         size
         media {
