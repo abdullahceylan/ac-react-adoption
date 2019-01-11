@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { map } from 'lodash/fp';
 import SelectBox from '@components/SelectBox';
 import SearchFilters, { AnimalFilters } from '@components/SearchFilters';
 import SearchResults from '@components/SearchResults';
-import { useGeoLocation, useAddress, coor2address } from '@helpers';
+import {
+  useGeoLocation,
+  useAddress,
+  coor2address,
+  useCurrentAnimal,
+  useUserFilters,
+} from '@helpers/hooks';
 import {
   SearchWrapper,
   SearchHeader,
@@ -13,36 +19,17 @@ import {
   SearchInput,
   SearchIcon,
   CloseIcon,
+  SearchInfoText,
 } from './Search.styles';
 
 import SearchImage from '@static/images/search.svg';
 import CloseImage from '@static/images/close.svg';
 
-const useCurrentAnimal = (initialAnimal = {}) => {
-  const [currentAnimal, setAnimal] = useState(initialAnimal);
-
-  return { currentAnimal, setAnimal };
-};
-
-const useUserFilters = () => {
-  const [userFilters, setUserFilter] = useState({
-    location: 'Canada',
-    animal: 'cat',
-    breed: null,
-    size: null,
-    sex: null,
-    age: null,
-    offset: null,
-    count: 10,
-  });
-
-  return { userFilters, setUserFilter };
-};
-
-const Search = props => {
+const Search = ({ isSearchActive, onClickHandler }) => {
   const { currentAnimal, setAnimal } = useCurrentAnimal();
   const { currentAddress, setAddress } = useAddress();
   const { userFilters, setUserFilter } = useUserFilters();
+
   // const location = useGeoLocation();
 
   // // console.log(location.latitude);
@@ -74,13 +61,19 @@ const Search = props => {
       if (returnThis.type === 'animal') {
         setAnimal(selectedItem);
       }
-      setUserFilter({ ...userFilters, [returnThis.type]: selectedItem.value ? selectedItem.value : selectedItem.id });
+      selectedItem &&
+        setUserFilter({
+          ...userFilters,
+          [returnThis.type]: selectedItem.value
+            ? selectedItem.value
+            : selectedItem.id,
+        });
     }
     console.log('selectedItem', selectedItem);
   };
   // console.log('currentAnimal', currentAnimal);
   return (
-    <SearchWrapper>
+    <SearchWrapper isSearchActive={isSearchActive}>
       <SearchHeader>
         <FormWrapper>
           <SearchForm>
@@ -97,13 +90,12 @@ const Search = props => {
                     width={100}
                     height={70}
                     items={filter.options}
-                    margin="0 0 0 10px"
+                    margin="0 0 0 5px"
                     // onChangeCallback={onChange}
                   />
                 ),
               AnimalFilters.common,
             )}
-
             <SearchInput
               placeholder="Location"
               autocomplete="off"
@@ -121,23 +113,36 @@ const Search = props => {
               returnThis={{ type: 'animal' }}
             />
           </SearchForm>
-          <CloseIcon>
+          <CloseIcon onClick={onClickHandler}>
             <CloseImage />
           </CloseIcon>
         </FormWrapper>
       </SearchHeader>
-      <SearchFilters currentAnimal={currentAnimal} onChange={onChangeSelectBox} />
-      <SearchResults />
+      <SearchFilters
+        currentAnimal={currentAnimal}
+        onChange={onChangeSelectBox}
+      />
+
+      {userFilters.animal && <SearchResults userFilters={userFilters} />}
+      {!userFilters.animal && (
+        <SearchInfoText>
+          Find anything about our product, search our documentation, and more.
+          Enter a query in the search input above, and results will be displayed
+          as you type.
+        </SearchInfoText>
+      )}
     </SearchWrapper>
   );
 };
 
 Search.propTypes = {
-  // bla: PropTypes.string,
+  isSearchActive: PropTypes.bool,
+  onClickHandler: PropTypes.func,
 };
 
 Search.defaultProps = {
-  // bla: 'test',
+  isSearchActive: false,
+  onClickHandler: () => {},
 };
 
 export default Search;

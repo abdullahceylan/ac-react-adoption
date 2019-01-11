@@ -5,27 +5,51 @@ import { Query } from 'react-apollo';
 import PetCard from '@components/PetCard';
 import * as Queries from './Queries';
 import { Col } from '@styles';
-import { SearchResultsWrapper, SearchList } from './SearchResults.styles';
+import { SearchResultsWrapper, SearchList, GeneralWrapper, InformText, LoadingImage } from './SearchResults.styles';
 
 // import { data } from './data.json';
 
-const SearchResults = props => {
+const loadingGif = '/static/images/searching.gif';
+
+const SearchResults = ({ userFilters }) => {
   const petFindQueryVariables = {
     location: 'Canada',
-    animal: 'cat',
+    animal: null,
     breed: null,
     size: null,
     sex: null,
     age: null,
     offset: null,
-    count: 10,
+    count: 12,
+    ...userFilters,
   };
+  if (petFindQueryVariables.animal === 'all-animals') {
+    petFindQueryVariables.animal = null;
+  }
+  console.log('userFilters', userFilters);
+  console.log('petFindQueryVariables', petFindQueryVariables);
 
   return (
     <Query query={Queries.petFindQuery} variables={petFindQueryVariables}>
-      {({ loading, error, data, fetchMore }) => {
-        if (error) return <div>Error loading posts.</div>;
-        if (loading) return <div>Loading</div>;
+      {({ loading, error, data, fetchMore, refetch }) => {
+        // console.log('data', data);
+        // console.log('error', error);
+        if (!loading && error) {
+          return (
+            <GeneralWrapper>
+              <InformText>Error loading content.</InformText>
+              <button onClick={() => refetch()}>Refetch!</button>
+            </GeneralWrapper>
+          );
+        }
+        if (loading) {
+          return (
+            <GeneralWrapper>
+              <LoadingImage src={loadingGif} alt="" />
+              <InformText>Loading</InformText>
+            </GeneralWrapper>
+          );
+        }
 
         // console.log('searchData', petFind);
         return (
@@ -33,7 +57,7 @@ const SearchResults = props => {
             <SearchList>
               {map(
                 pet => (
-                  <Col key={pet.id} xs={4} sm={4} md={2}>
+                  <Col key={pet.id} xs={6} sm={4} md={3} lg={2}>
                     <PetCard key={pet.id} pet={pet} />
                   </Col>
                 ),

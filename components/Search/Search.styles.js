@@ -1,21 +1,45 @@
-import { styled, prop, valueSelector } from '@styles';
+import {
+  styled,
+  css,
+  ifProp,
+  prop,
+  media,
+  FadeIn,
+  FadeOut,
+  Row,
+} from '@styles';
 
 export const SearchWrapper = styled.div`
-  display: flex;
+  display: none;
   flex-direction: column;
   position: fixed;
-  top: 0.25rem;
-  left: 0.25rem;
-  width: calc(100vw - 0.5rem);
-  z-index: 2000;
+  width: 100vw;
+  z-index: 999;
   background: #f9fafb;
-  height: calc(100vh - 0.5rem);
-  transform: scale(1.1);
-  padding: 55px 64px;
+  height: 100vh;
+  padding: 28px 32px;
   overflow: hidden;
   will-change: transform;
-  opacity: 1;
+  opacity: 0;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+  animation: ${FadeOut} 0.3s;
+
+  ${ifProp(
+    { isSearchActive: true },
+    css`
+      display: flex;
+      opacity: 1;
+      animation: ${FadeIn} 0.3s;
+    `,
+  )}
+
+  ${media.sm(`
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    box-shadow:0 0 0
+  `)}
 `;
 
 export const SearchHeader = styled.div`
@@ -30,7 +54,7 @@ export const FormWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 10px;
+  padding: 0;
 `;
 
 export const SearchForm = styled.div`
@@ -57,7 +81,7 @@ export const SearchInput = styled.input`
   transition: box-shadow 0.2s ease;
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0.3rem;
-  margin: 0 10px;
+  margin: 0 5px;
 `;
 
 export const SearchIcon = styled.span`
@@ -68,7 +92,13 @@ export const SearchIcon = styled.span`
 `;
 
 export const CloseIcon = styled.span`
+  cursor: pointer;
   & > svg {
     width: 16px;
   }
+`;
+
+export const SearchInfoText = styled.p`
+  font-size: 21px;
+  line-height: 2rem;
 `;
