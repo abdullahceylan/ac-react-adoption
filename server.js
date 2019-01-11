@@ -25,6 +25,12 @@ app
       app.render(req, res, page, queryParams);
     });
 
+    server.get('/shelter-details/:id', (req, res) => {
+      const page = '/shelterDetails';
+      const queryParams = { id: req.params.id };
+      app.render(req, res, page, queryParams);
+    });
+
     server.get('*', (req, res) => {
       return handle(req, res);
     });
