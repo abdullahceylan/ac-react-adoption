@@ -28,6 +28,11 @@ const slideList = [
       'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&q=80',
     title: 'Slide 2',
   },
+  {
+    src:
+      '/static/images/image-18.jpg',
+    title: 'Slide 3',
+  },
 ];
 
 const Home = props => {

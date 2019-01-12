@@ -8,10 +8,10 @@ export const PetInfo = styled.div`
   position: absolute;
   transform: translateY(calc(42px + 1em));
   transition: transform 0.3s;
-  background-color: #fff;
   bottom: 0;
   width: 100%;
-  background-color: #f0f8ff;
+  background-color: #fc5f90;
+  color: #fff;
   padding: 15px 0;
 `;
 
@@ -51,7 +51,7 @@ export const PetImage = styled.span`
 export const PetName = styled.span`
   font-size: 18px;
   font-weight: 600;
-  color: #9c27b0;
+  /* color: #9c27b0; */
   height: 52px;
   display: flex;
   justify-content: center;
