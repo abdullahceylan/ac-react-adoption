@@ -15,10 +15,6 @@ import {
 
 const slideList = [
   {
-    src: '/static/images/dog.png',
-    title: 'Slide 3',
-  },
-  {
     src:
       'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2744&q=80',
     title: 'Slide 1',
@@ -29,8 +25,7 @@ const slideList = [
     title: 'Slide 2',
   },
   {
-    src:
-      '/static/images/image-18.jpg',
+    src: '/static/images/image-18.jpg',
     title: 'Slide 3',
   },
 ];
@@ -51,7 +46,7 @@ const Home = props => {
         </LeftContent>
         <LeftFooter>
           <p>Animals have no voice. We do!</p>
-          <small>Donate now to help to animals. Today!</small>
+          <small>They need a friend as well!</small>
         </LeftFooter>
       </LeftSide>
       <RightSide>
