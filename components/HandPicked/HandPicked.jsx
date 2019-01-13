@@ -1,77 +1,49 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { map } from 'lodash/fp';
 import { Query } from 'react-apollo';
-import gql from 'graphql-tag';
-import PetCard from '@components/PetCard';
-import { petFindQuery } from '@queries';
-import { HandPickedWrapper, HandPickedList } from './HandPicked.styles';
-import { Col } from '@styles';
-// import handPickedList from './data.json';
+import HandPickedList from './HandPickedList';
+import { petFindQuery } from '@queries';
+import { HandPickedWrapper, HandPickedListWrapper } from './HandPicked.styles';
 
+const HandPicked = ({ count }) => {
+  const petFindQueryVariables = {
+    location: 'Canada',
+    count,
+  };
 
-export const petFindQueryVariables = {
-  location: 'Canada',
-  count: 6,
-};
-
-const HandPicked = props => (
-    <Query query={petFindQuery} variables={petFindQueryVariables}>
-      {({ loading, error, data, fetchMore }) => {
+  return (
+    <Query
+      query={petFindQuery}
+      variables={petFindQueryVariables}
+      notifyOnNetworkStatusChange
+    >
+      {({ loading, error, data }) => {
         if (error) return <div>Error loading pets.</div>;
-        if (loading) return <div>Loading</div>;
-        
-        if (!data.petFind) {
-          return null;
-        }
 
-        // console.log('handPicked', petFind);
+        // if (!data.petFind) {
+        //   return null;
+        // }
 
-        // const areMorePosts = handPicked.length
         return (
           <HandPickedWrapper>
-            <HandPickedList>
-              {map(
-                pet => (
-                  <Col key={pet.id} xs={12} sm={6} md={4}>
-                    <PetCard pet={pet} />
-                  </Col>
-                ),
-                data.petFind.pets,
-              )}
-            </HandPickedList>
+            <HandPickedList
+              pets={!loading && data.petFind.pets}
+              count={petFindQueryVariables.count}
+              loading={loading}
+            />
           </HandPickedWrapper>
         );
       }}
     </Query>
-);
-
-function loadMorePosts(petFind, fetchMore) {
-  fetchMore({
-    variables: {
-      skip: petFind.length,
-    },
-    updateQuery: (previousResult, { fetchMoreResult }) => {
-      if (!fetchMoreResult) {
-        return previousResult;
-      }
-      return Object.assign({}, previousResult, {
-        // Append the new posts results to the old one
-        shelterGetPets: [
-          ...previousResult.petFind,
-          ...fetchMoreResult.petFind,
-        ],
-      });
-    },
-  });
-}
+  );
+};
 
 HandPicked.propTypes = {
-  // bla: PropTypes.string,
+  count: PropTypes.number,
 };
 
 HandPicked.defaultProps = {
-  // bla: 'test',
+  count: 6,
 };
 
 export default React.memo(HandPicked);

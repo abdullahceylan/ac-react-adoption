@@ -6,4 +6,4 @@ export const HandPickedWrapper = styled(Grid)`
   overflow-y: scroll;
 `;
 
-export const HandPickedList = styled(Row)``;
+export const HandPickedListWrapper = styled(Row)``;
