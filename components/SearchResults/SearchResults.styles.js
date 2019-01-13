@@ -6,7 +6,7 @@ export const SearchResultsWrapper = styled(Grid)`
   padding-top: 2rem;
 `;
 
-export const SearchList = styled(Row)`
+export const SearchListWrapper = styled(Row)`
   margin: 0 5px;
 `;
 

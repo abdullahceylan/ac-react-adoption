@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { map } from 'lodash/fp';
 import { Query } from 'react-apollo';
-import PetCard from '@components/PetCard';
+import SearchList from './SearchList';
 import { petFindQuery } from '@queries';
-import { Col } from '@styles';
-import { SearchResultsWrapper, SearchList, GeneralWrapper, InformText, LoadingImage } from './SearchResults.styles';
-
-// import { data } from './data.json';
-
-const loadingGif = '/static/images/searching.gif';
+import { loadMoreContent } from '@helpers';
+import { Button } from '@styles';
+import {
+  SearchResultsWrapper,
+  GeneralWrapper,
+  InformText,
+} from './SearchResults.styles';
 
 const SearchResults = ({ userFilters }) => {
   const petFindQueryVariables = {
@@ -26,15 +26,16 @@ const SearchResults = ({ userFilters }) => {
   if (petFindQueryVariables.animal === 'all-animals') {
     petFindQueryVariables.animal = null;
   }
-  console.log('userFilters', userFilters);
-  console.log('petFindQueryVariables', petFindQueryVariables);
 
   return (
-    <Query query={petFindQuery} variables={petFindQueryVariables}>
-      {({ loading, error, data, fetchMore, refetch }) => {
-        // console.log('data', data);
-        // console.log('error', error);
-        if (!loading && error) {
+    <Query
+      query={petFindQuery}
+      variables={petFindQueryVariables}
+      notifyOnNetworkStatusChange
+    >
+      {({ loading, error, data, fetchMore, refetch, networkStatus }) => {
+        const fetching = loading || networkStatus === 4;
+        if (!fetching && error) {
           return (
             <GeneralWrapper>
               <InformText>Error loading content.</InformText>
@@ -42,28 +43,27 @@ const SearchResults = ({ userFilters }) => {
             </GeneralWrapper>
           );
         }
-        if (loading) {
-          return (
-            <GeneralWrapper>
-              <LoadingImage src={loadingGif} alt="" />
-              <InformText>Loading</InformText>
-            </GeneralWrapper>
-          );
-        }
 
-        // console.log('searchData', petFind);
         return (
           <SearchResultsWrapper>
-            <SearchList>
-              {map(
-                pet => (
-                  <Col key={pet.id} xs={6} sm={4} md={3} lg={2}>
-                    <PetCard key={pet.id} pet={pet} />
-                  </Col>
-                ),
-                data.petFind.pets,
-              )}
-            </SearchList>
+            <SearchList
+              pets={!fetching && data.petFind.pets}
+              placeholderCount={petFindQueryVariables.count}
+              loading={fetching}
+            />
+            {!fetching && (
+              <Button
+                onClick={() =>
+                  loadMoreContent({
+                    queryType: 'petFind',
+                    data: data.petFind.pets,
+                    fetchMore,
+                  })
+                }
+              >
+                Load more
+              </Button>
+            )}
           </SearchResultsWrapper>
         );
       }}
@@ -71,11 +71,13 @@ const SearchResults = ({ userFilters }) => {
   );
 };
 SearchResults.propTypes = {
-  // bla: PropTypes.string,
+  userFilters: PropTypes.oneOfType([
+    PropTypes.object,
+  ]),
 };
 
 SearchResults.defaultProps = {
-  // bla: 'test',
+  userFilters: {},
 };
 
 export default SearchResults;
