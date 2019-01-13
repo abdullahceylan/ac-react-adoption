@@ -5,7 +5,7 @@ import Search from '@components/Search';
 import { useSearch } from '@helpers/hooks';
 import { Header, Title, LogoWrapper, SearchIcon } from './MainLayout.styles';
 
-import LogoImage from './logo.svg';
+import LogoImage from './logo-adoption.svg';
 const SearchImage = '/static/images/search.svg';
 
 const MainLayout = ({ children }) => {
